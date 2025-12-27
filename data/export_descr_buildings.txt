@@ -2399,10 +2399,10 @@ building temple_of_governors
 				temple_of_governors_pantheon
 			}
 		}
-		temple_of_governors_pantheon requires factions { greek, } 
+		temple_of_governors_pantheon requires factions { greek,pontus, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { greek, }
+			ai_destruction_hint requires not factions { greek,pontus, }
 
 			capability
 			{
@@ -3136,10 +3136,10 @@ building temple_of_love
 				temple_of_love_pantheon
 			}
 		}
-		temple_of_love_pantheon requires factions { greek_cities, } 
+		temple_of_love_pantheon requires factions { greek_cities,pontus, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { greek_cities, }
+			ai_destruction_hint requires not factions { greek_cities,pontus, }
 
 			capability
 			{
@@ -3661,10 +3661,10 @@ building temple_of_violence
 				temple_of_violence_pantheon
 			}
 		}
-		temple_of_violence_pantheon requires factions { macedon, romans_brutii, } 
+		temple_of_violence_pantheon requires factions { macedon, romans_brutii,pontus, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { macedon, romans_brutii, }
+			ai_destruction_hint requires not factions { macedon, romans_brutii,pontus, }
 
 			capability
 			{
