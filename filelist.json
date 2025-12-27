@@ -2,5 +2,9 @@
 	{
 		"filename": "data\/export_descr_unit.txt",
 		"checksum": 1324478349
+	},
+	{
+		"filename": "data\/export_descr_buildings.txt",
+		"checksum": 1324478349
 	}
 ]
