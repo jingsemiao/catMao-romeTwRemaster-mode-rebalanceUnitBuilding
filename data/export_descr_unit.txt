@@ -4606,7 +4606,7 @@ stat_mental      10, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 600, 330, 60, 90, 600
+stat_cost        1, 600, 330, 60, 90, 600
 ownership        egypt
 ethnicity egypt, Nile_Delta, don't_allow_regional
 rebalance_statblock
@@ -4626,7 +4626,7 @@ stat_mental      10, disciplined, highly_trained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 700, 330, 60, 90, 700
+stat_cost        1, 700, 330, 60, 90, 700
  
  
 type             egyptian cavalry
