@@ -368,6 +368,7 @@ building barracks
 				recruit "warband axe scythian"  1
 				recruit "numidian javelinmen"  0
 				recruit "numidian desert warriors"  1
+				recruit "numidian legionaries"  0
 				recruit "carthaginian medium infantry"  0
 				recruit "east hillmen"  0
 				recruit "east infantry"  0
@@ -418,7 +419,7 @@ building barracks
 				recruit "warband dhaxe german"  0
 				recruit "warband axe scythian"  1
 				recruit "numidian javelinmen"  0
-				recruit "numidian desert warriors"  1
+				recruit "numidian desert warriors"  3
 				recruit "carthaginian medium infantry"  0
 				recruit "carthaginian heavy infantry"  0
 				recruit "numidian legionaries"  0
@@ -1983,10 +1984,10 @@ building temple_of_farming
 				temple_of_farming_pantheon
 			}
 		}
-		temple_of_farming_pantheon requires factions { macedon, } 
+		temple_of_farming_pantheon requires factions { macedon,carthaginian } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { macedon, }
+			ai_destruction_hint requires not factions { macedon,carthaginian }
 
 			capability
 			{
@@ -2816,17 +2817,17 @@ building temple_of_justice
 				temple_of_justice_pantheon
 			}
 		}
-		temple_of_justice_pantheon requires factions { egyptian, } 
+		temple_of_justice_pantheon requires factions { egyptian,carthaginian } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { egyptian, }
+			ai_destruction_hint requires not factions { egyptian,carthaginian }
 
 			capability
 			{
 				recruit "barb druids gaul"  0
 				recruit "barb naked fanatics spain"  0
 				recruit "spanish bull warriors"  0
-				recruit "carthaginian sacred band infantry"  0
+				recruit "carthaginian sacred band infantry"  2
 				happiness_bonus bonus 7
 				law_bonus bonus 5
 				population_growth_bonus bonus 2
@@ -3444,10 +3445,10 @@ building temple_of_trade
 				temple_of_trade_pantheon
 			}
 		}
-		temple_of_trade_pantheon requires factions { greek, romans_brutii, } 
+		temple_of_trade_pantheon requires factions { greek, romans_brutii,carthaginian, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { greek, romans_brutii, }
+			ai_destruction_hint requires not factions { greek, romans_brutii,carthaginian, }
 
 			capability
 			{

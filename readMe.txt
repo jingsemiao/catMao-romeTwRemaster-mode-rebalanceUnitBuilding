@@ -1,5 +1,32 @@
 RomeTotalWar Remaster Mod 
 
+
+建筑按照派系 可招募部队 可参考 building temple_of_justice
+
+
+		temple_of_justice_awesome_temple requires factions { carthaginian, egyptian, } 
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not factions { carthaginian, egyptian, }
+
+			capability
+			{
+				recruit "barb druids gaul"  0
+				recruit "barb naked fanatics spain"  0
+				recruit "spanish bull warriors"  0
+				recruit "carthaginian sacred band infantry"  0
+				happiness_bonus bonus 4
+				law_bonus bonus 4
+			}
+			construction  5 
+			cost  3200 
+			settlement_min large_city
+			upgrades
+			{
+				temple_of_justice_pantheon
+			}
+		}
+
 作弊码	影响
 ？	获取输入的作弊码的帮助
 add_money ##	通过##增加资金
@@ -56,6 +83,7 @@ trigger_advice	触发建议
 upgrade_effect	触发单元升级
 
 
+作弊码中输入地点具体字符串
 {Britannia_Inferior}	下不列颠
 {Tribus_Saxones}	撒克逊
 {Locus_Gepidae}	格皮德
