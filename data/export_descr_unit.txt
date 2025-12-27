@@ -147,7 +147,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 150, 100, 20, 30, 150
+stat_cost        0, 150, 100, 20, 30, 150
 ownership        britons
 ethnicity britons, Brittania_Superior
  
@@ -174,7 +174,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 150, 100, 20, 30, 150
+stat_cost        0, 150, 100, 20, 30, 150
 ownership        dacia
 ethnicity dacia, Dacia
  
@@ -201,7 +201,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 150, 100, 20, 30, 150
+stat_cost        0, 150, 100, 20, 30, 150
 ownership        gauls
 ethnicity gauls, Central_Gaul
  
@@ -228,7 +228,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 150, 100, 20, 30, 150
+stat_cost        0, 150, 100, 20, 30, 150
 ownership        germans
 ethnicity germans, Germania_Superior
  
@@ -255,7 +255,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 150, 100, 20, 30, 150
+stat_cost        0, 150, 100, 20, 30, 150
 ownership        scythia
 ethnicity scythia, Scythia
  
@@ -282,7 +282,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 150, 100, 20, 30, 150
+stat_cost        0, 150, 100, 20, 30, 150
 ownership        slave
 ethnicity slave, Germania_Superior
  
@@ -2570,7 +2570,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 120, 100, 20, 20, 120
+stat_cost        0, 120, 100, 20, 20, 120
 ownership        carthage, spain, numidia, slave
 ethnicity carthage, Baliares
 ethnicity numidia, Numidia
@@ -3437,7 +3437,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 120, 100, 20, 20, 120
+stat_cost        0, 120, 100, 20, 20, 120
 ownership        eastern, slave
 ethnicity armenia, Armenia
 ethnicity parthia, Elymais
@@ -4313,7 +4313,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 120, 100, 20, 20, 120
+stat_cost        0, 120, 100, 20, 20, 120
 ownership        egypt, slave
 ethnicity egypt, Nile_Delta
  
@@ -4999,7 +4999,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 100, 100, 20, 30, 100
+stat_cost        0, 100, 100, 20, 30, 100
 ownership        greek, slave
 ethnicity greek_cities, Crete
 ethnicity macedon, Macedonia
@@ -5974,7 +5974,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 100, 100, 20, 30, 100
+stat_cost        0, 100, 100, 20, 30, 100
 ownership        roman
 ethnicity romans_brutii, Bruttium
 ethnicity romans_julii, Etruria
@@ -8174,7 +8174,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 250, 510, 30, 40, 250
+stat_cost        0, 250, 510, 30, 40, 250
 ownership        barbarian
  
  
@@ -8200,7 +8200,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 250, 510, 30, 40, 250
+stat_cost        0, 250, 510, 30, 40, 250
 ownership        barbarian
  
  
@@ -8226,7 +8226,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 250, 510, 30, 40, 250
+stat_cost        0, 250, 510, 30, 40, 250
 ownership        carthage
  
  
@@ -8252,7 +8252,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 250, 510, 30, 40, 250
+stat_cost        0, 250, 510, 30, 40, 250
 ownership        carthage
  
  
@@ -8278,7 +8278,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 250, 510, 30, 40, 250
+stat_cost        0, 250, 510, 30, 40, 250
 ownership        eastern
  
  
@@ -8304,7 +8304,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 250, 510, 30, 40, 250
+stat_cost        0, 250, 510, 30, 40, 250
 ownership        eastern
  
  
@@ -8330,7 +8330,7 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 250, 510, 30, 40, 250
+stat_cost        0, 250, 510, 30, 40, 250
 ownership        egyptian
  
  
@@ -8356,5 +8356,5 @@ stat_mental      0, low, untrained
 stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 250, 510, 30, 40, 250
+stat_cost        0, 250, 510, 30, 40, 250
 ownership        egyptian
