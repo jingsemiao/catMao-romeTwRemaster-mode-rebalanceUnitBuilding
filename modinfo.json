@@ -1,0 +1,11 @@
+{
+	"Description": "Rome Remastered CatMao ",
+	"Mod Name": "CatMaoJs Unit Building Rebalance",
+	"Preview Image": "ExampleMod.png",
+	"Supports Alex": false,
+	"Supports BI": false,
+	"Supports Rome": true,
+	"Tags": [ ],
+	"Visibility": 0,
+	"Workshop ID": 0
+}
