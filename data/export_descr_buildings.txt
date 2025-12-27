@@ -1177,7 +1177,7 @@ building health
 	icon sanitation
 	levels sewers baths aqueduct city_plumbing 
 	{
-		sewers requires factions { carthaginian, egyptian, greek, roman, }  and building_present_min_level market trader
+		sewers requires factions { carthaginian, egyptian, greek, roman, eastern, parthia, }  and building_present_min_level market trader
 		{
 			capability
 			{
@@ -1191,7 +1191,7 @@ building health
 				baths
 			}
 		}
-		baths requires factions { carthaginian, egyptian, greek, roman, }  and building_present_min_level market market
+		baths requires factions { carthaginian, egyptian, greek, roman, eastern, parthia, }  and building_present_min_level market market
 		{
 			capability
 			{
@@ -1219,7 +1219,7 @@ building health
 				city_plumbing
 			}
 		}
-		city_plumbing requires factions { roman, }  and building_present_min_level market great_forum
+		city_plumbing requires factions { roman,greek }  and building_present_min_level market great_forum
 		{
 			capability
 			{
@@ -1335,7 +1335,7 @@ building hinterland_roads
 				paved_roads
 			}
 		}
-		paved_roads requires factions { carthaginian, egyptian, greek, roman, } 
+		paved_roads requires factions { carthaginian, egyptian, greek, roman,eastern, parthia, } 
 		{
 			capability
 			{
@@ -2298,10 +2298,10 @@ building temple_of_fun
 				temple_of_fun_pantheon
 			}
 		}
-		temple_of_fun_pantheon requires factions { egyptian, thrace, seleucid, romans_julii, } 
+		temple_of_fun_pantheon requires factions { egyptian, thrace, seleucid, romans_julii,armenia } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { egyptian, thrace, seleucid, romans_julii, }
+			ai_destruction_hint requires not factions { egyptian, thrace, seleucid, romans_julii,armenia }
 
 			capability
 			{
@@ -3029,10 +3029,10 @@ building temple_of_leadership
 				temple_of_leadership_pantheon
 			}
 		}
-		temple_of_leadership_pantheon requires factions { greek_cities, romans_julii, } 
+		temple_of_leadership_pantheon requires factions { greek_cities, romans_julii,armenia, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { greek_cities, romans_julii, }
+			ai_destruction_hint requires not factions { greek_cities, romans_julii,armenia, }
 
 			capability
 			{
@@ -3298,6 +3298,7 @@ building temple_of_one_god
 			{
 				happiness_bonus bonus 2
 				law_bonus bonus 2
+				population_health_bonus bonus 1
 			}
 			construction  2 
 			cost  800 
@@ -3316,6 +3317,7 @@ building temple_of_one_god
 			{
 				happiness_bonus bonus 3
 				law_bonus bonus 3
+				population_health_bonus bonus 2
 			}
 			construction  3 
 			cost  1600 
@@ -3334,6 +3336,7 @@ building temple_of_one_god
 			{
 				happiness_bonus bonus 4
 				law_bonus bonus 4
+				population_health_bonus bonus 2
 			}
 			construction  5 
 			cost  3200 
@@ -3352,6 +3355,10 @@ building temple_of_one_god
 			{
 				happiness_bonus bonus 5
 				law_bonus bonus 5
+				population_health_bonus bonus 2
+				weapon_bladed bonus 1
+				armour bonus 1
+                weapon_missile 1
 			}
 			construction  6 
 			cost  6400 
