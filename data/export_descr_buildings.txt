@@ -388,6 +388,7 @@ building barracks
 				recruit "roman infantry auxillia"  0  requires major_event "marian_reforms" 
 				recruit "roman princeps"  0  requires not major_event "marian_reforms" 
 				recruit "roman legionary cohort i"  0  requires major_event "marian_reforms" 
+				recruit "east persian cavalry"  0
 			}
 			construction  4 
 			cost  2400 
@@ -452,6 +453,7 @@ building barracks
 				recruit "roman triarii"  0  requires not major_event "marian_reforms" 
 				recruit "roman legionary cohort ii"  0  requires major_event "marian_reforms" 
 				recruit "roman praetorian cohort i"  0  requires major_event "marian_reforms" 
+				recruit "east persian cavalry"  0
 			}
 			construction  6 
 			cost  4800 
@@ -519,6 +521,7 @@ building barracks
 				recruit "roman legionary first cohort ii"  0  requires hidden_resource rome and major_event "marian_reforms" 
 				recruit "roman praetorian cohort urban i"  0  requires major_event "marian_reforms" 
 				recruit "roman praetorian cohort i"  0  requires major_event "marian_reforms" 
+				recruit "east persian cavalry"  0
 			}
 			construction  7 
 			cost  9600 
@@ -646,7 +649,7 @@ building equestrian
 				recruit "east cavalry"  0
 				recruit "east horse archer"  0
 				recruit "east heavy cavalry"  0
-				recruit "east persian cavalry"  0
+				recruit "east persian cavalry"  1
 				recruit "east cataphract archer"  0
 				recruit "east cappodocian cavalry"  0
 				recruit "east heavy cataphract"  0
@@ -708,7 +711,7 @@ building equestrian
 				recruit "east cavalry"  0
 				recruit "east horse archer"  0
 				recruit "east heavy cavalry"  0
-				recruit "east persian cavalry"  0
+				recruit "east persian cavalry"  2
 				recruit "east cataphract archer"  0
 				recruit "east cappodocian cavalry"  0
 				recruit "east heavy cataphract"  0
@@ -813,6 +816,7 @@ building missiles
 				recruit "roman archer"  0  requires not major_event "marian_reforms" 
 				recruit "roman archer auxillia"  0  requires major_event "marian_reforms" 
 				recruit "roman ballista"  0
+				recruit "east persian cavalry"  0
 			}
 			construction  4 
 			cost  2400 
@@ -863,6 +867,7 @@ building missiles
 				recruit "roman ballista"  0
 				recruit "roman scorpion"  0
 				recruit "roman onager"  0
+				recruit "east persian cavalry"  1
 			}
 			construction  6 
 			cost  4800 
@@ -918,6 +923,7 @@ building missiles
 				recruit "roman onager"  0
 				recruit "roman heavy onager"  0
 				recruit "roman repeating ballista"  0
+				recruit "east persian cavalry"  2
 			}
 			construction  7 
 			cost  9600 
