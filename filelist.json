@@ -6,5 +6,38 @@
 	{
 		"filename": "data\/export_descr_buildings.txt",
 		"checksum": 1324478349
+	},
+	{
+		"filename": "data\/export_descr_buildings_enums.txt",
+		"checksum": 1324478349
+	},
+	{
+		"filename": "data\/text\/export_buildings.txt",
+		"checksum": 2924144999
+	},
+	{
+		"filename": "data\/text\/export_buildings_mac_de.txt",
+		"checksum": 2924144999
+	},
+	{
+		"filename": "data\/text\/export_buildings_mac_es.txt",
+		"checksum": 2924144999
+	},
+	{
+		"filename": "data\/text\/export_buildings_mac_fr.txt",
+		"checksum": 2924144999
+	},
+	{
+		"filename": "data\/text\/export_buildings_mac_it.txt",
+		"checksum": 2924144999
+	},
+	{
+		"filename": "data\/text\/export_buildings_mac_ru.txt",
+		"checksum": 2924144999
+	},
+	{
+		"filename": "data\/text\/export_buildings_mac_zh_cn.txt",
+		"checksum": 2924144999
 	}
+	
 ]

@@ -1821,7 +1821,7 @@ building temple_of_battleforge
 {
 	tag temple
 	icon religion
-	levels temple_of_battleforge_shrine temple_of_battleforge_temple temple_of_battleforge_large_temple temple_of_battleforge_awesome_temple 
+	levels temple_of_battleforge_shrine temple_of_battleforge_temple temple_of_battleforge_large_temple temple_of_battleforge_awesome_temple temple_of_battleforge_pantheon 
 	{
 		temple_of_battleforge_shrine requires factions { spain, gauls, armenia, } and no_other_temple 
 		{
@@ -1871,7 +1871,7 @@ building temple_of_battleforge
 				recruit "barb naked fanatics gauls"  1
 				happiness_bonus bonus 3
 				weapon_simple bonus 1
-				recruits_exp_bonus bonus 2
+				recruits_exp_bonus bonus 1
 			}
 			construction  3 
 			cost  1600 
@@ -1888,15 +1888,34 @@ building temple_of_battleforge
 
 			capability
 			{
-				recruit "barb naked fanatics gauls"  1
 				happiness_bonus bonus 4
 				weapon_simple bonus 1
-				recruits_exp_bonus bonus 2
-				armour bonus 1
+				recruits_exp_bonus bonus 1
 			}
 			construction  5 
 			cost  3200 
 			settlement_min large_city
+			upgrades
+			{
+				temple_of_battleforge_pantheon
+			}
+		}
+		temple_of_battleforge_pantheon requires factions { armenia, } 
+		{
+			;;conditions under which the AI will destroy this building
+			ai_destruction_hint requires not factions { armenia, }
+
+			capability
+			{
+				happiness_bonus bonus 5
+				law_bonus bonus 2
+				weapon_simple bonus 1
+				recruits_exp_bonus bonus 2
+				weapon_missile bonus 1
+			}
+			construction  6 
+			cost  6400 
+			settlement_min huge_city
 			upgrades
 			{
 			}
