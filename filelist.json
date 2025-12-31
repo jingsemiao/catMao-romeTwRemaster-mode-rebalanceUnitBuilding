@@ -38,6 +38,22 @@
 	{
 		"filename": "data\/text\/export_buildings_mac_zh_cn.txt",
 		"checksum": 2924144999
+	},
+	{
+		"filename": "data\/ui\/unit_info\/carthage\/carthaginian_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/carthage\/carthaginian_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/carthage\/#carthaginian_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/carthage\/#carthaginian_archer.tga",
+		"checksum": "Blacklisted"
 	}
 	
 ]

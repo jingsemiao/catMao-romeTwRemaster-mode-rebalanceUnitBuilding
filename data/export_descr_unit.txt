@@ -2676,9 +2676,9 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 190, 170, 20, 30, 190
-ownership        numidia
+ownership        numidia,carthage
 ethnicity numidia, Numidia
- 
+ethnicity carthage
  
 type             carthaginian city militia
 dictionary       carthaginian_city_militia      ; Town Militia

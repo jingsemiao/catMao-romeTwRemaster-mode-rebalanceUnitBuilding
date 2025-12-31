@@ -5,7 +5,9 @@ SMT_STATE_ICON_CULTURE_PENALTY
 建筑按照派系 可招募部队 可参考 building temple_of_justice
 
 faction	slave, balanced_smith
+carthage carthage
 
+recruit "greek hoplite elite"  0 requires factions { greek_cities, }
 happiness_bonus bonus 1 requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } and is_toggled "settlement condition"
 law_bonus bonus 1 requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } and is_toggled "settlement condition"
 		temple_of_justice_awesome_temple requires factions { carthaginian, egyptian, } 
@@ -30,6 +32,72 @@ law_bonus bonus 1 requires factions { barbarian, carthaginian, eastern, parthia,
 				temple_of_justice_pantheon
 			}
 		}
+
+carthaginian archer
+
+	{
+		"filename": "data\/ui\/units\/construction\/#greek_hoplite_elite.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/construction\/#greek_hoplite_elite.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+
+    //要复制的文件
+	{
+		"filename": "data\/ui\/unit_info\/greek_cities\/greek_hoplite_elite_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/greek_cities\/greek_hoplite_elite_info.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/units\/greek_cities\/#greek_hoplite_elite.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/greek_cities\/#greek_hoplite_elite.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+
+
+	{
+		"filename": "data\/ui\/units\/seleucid\/#greek_hoplite_elite.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/units_classic\/seleucid\/#greek_hoplite_elite.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+
+
+	{
+		"filename": "data\/ui\/unit_info\/numidia\/carthaginian_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/numidia\/carthaginian_archer_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/numidia\/#carthaginian_archer.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/numidia\/#carthaginian_archer.tga",
+		"checksum": "Blacklisted"
+	},
+
 
 作弊码	影响
 ？	获取输入的作弊码的帮助
@@ -86,6 +154,8 @@ toggle_terrain	切换地形
 trigger_advice	触发建议
 upgrade_effect	触发单元升级
 
+
+greek_cities , macedon , seleucid , thrace
 
 作弊码中输入地点具体字符串
 {Britannia_Inferior}	下不列颠
