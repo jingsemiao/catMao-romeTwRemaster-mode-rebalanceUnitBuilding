@@ -1,8 +1,12 @@
 RomeTotalWar Remaster Mod 
 
+SMT_STATE_ICON_CULTURE_PENALTY
 
 建筑按照派系 可招募部队 可参考 building temple_of_justice
 
+faction	slave, balanced_smith
+
+happiness_bonus bonus 1 requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } and is_toggled "settlement condition"
 law_bonus bonus 1 requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } and is_toggled "settlement condition"
 		temple_of_justice_awesome_temple requires factions { carthaginian, egyptian, } 
 		{
