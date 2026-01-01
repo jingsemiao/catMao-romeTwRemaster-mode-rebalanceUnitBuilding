@@ -432,9 +432,9 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 270, 170, 30, 40, 270
-ownership        dacia
+ownership        dacia, spain, britons
 ethnicity dacia, Dacia
- 
+ethnicity spain, britons
  
 type             barb archer scythian
 dictionary       barb_archer_scythian      ; Archer Warband

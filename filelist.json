@@ -39,6 +39,8 @@
 		"filename": "data\/text\/export_buildings_mac_zh_cn.txt",
 		"checksum": 2924144999
 	},
+
+
 	{
 		"filename": "data\/ui\/unit_info\/carthage\/carthaginian_archer_info.tga",
 		"checksum": "Blacklisted"
@@ -53,6 +55,43 @@
 	},
 	{
 		"filename": "data\/ui\/units_classic\/carthage\/#carthaginian_archer.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+
+	{
+		"filename": "data\/ui\/unit_info\/spain\/barb_archer_dacian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/spain\/barb_archer_dacian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/spain\/#barb_archer_dacian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/spain\/#barb_archer_dacian.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/unit_info\/britons\/barb_archer_dacian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/britons\/barb_archer_dacian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units\/britons\/#barb_archer_dacian.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/britons\/#barb_archer_dacian.tga",
 		"checksum": "Blacklisted"
 	}
 	
