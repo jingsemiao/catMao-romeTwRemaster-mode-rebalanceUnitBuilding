@@ -3518,7 +3518,7 @@ settlement
 	}
 	building
 	{
-		type temple_of_victory temple_of_victory_temple
+		type temple_of_victory temple_of_victory_large_temple
 	}
 	building
 	{
@@ -3538,7 +3538,7 @@ settlement
 	}
 	building
 	{
-		type academic academy
+		type academic ludus_magnus
 	}
 	building
 	{
@@ -3662,7 +3662,7 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
@@ -3675,6 +3675,73 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+	building
+	{
+		type theatres lyceum
+	}
+	building
+	{
+		type academic ludus_magnus
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_of_victory temple_of_victory_large_temple
+	}
+}
+
+settlement
+{
+	level city
+	region Transalpine_Gaul
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator greek_cities
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type academic ludus_magnus
+	}
+	building
+	{
+		type theatres lyceum
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type temple_of_victory temple_of_victory_large_temple
 	}
 }
 
@@ -3693,13 +3760,15 @@ character	Dionysios of Sparta, named character, age 34, , x 106, y 44
 traits GoodCommander 1 , Intelligent 1 , GoodAdministrator 2
 ancillaries brilliant_inventor, playwright
 army
-unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek archer				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		greek hoplite				exp 0 armour 0 weapon_lvl 0
+unit		greek general's guard cavalry early				exp 6 armour 3 weapon_lvl 3
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek archer				exp 5 armour 2 weapon_lvl 2
+unit		greek peltast				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 5 armour 2 weapon_lvl 2
 
 character	Antigonos of Sparta, named character, age 33, , x 132, y 55
 traits NaturalMilitarySkill 1 , Intelligent 1 , Drink 1 , Energetic 1
@@ -3744,6 +3813,16 @@ ancillaries networker
 
 character	Diodoros of Gela, diplomat, age 49, , x 105, y 44
 traits GoodDiplomat 4
+
+character	sub_faction greek_cities, Cleon, general, age 20, , x 67, y 82
+army
+unit		greek hoplite				exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 3 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 3 armour 2 weapon_lvl 2
+unit		greek archer				exp 5 armour 2 weapon_lvl 2
+unit		greek hoplite				exp 3 armour 2 weapon_lvl 2
 
 
 character_record		Clymene, 	female, command 0, influence 0, management 0, subterfuge 0, age 53, alive, never_a_leader
@@ -4270,7 +4349,10 @@ settlement
 	{
 		type theatres lyceum
 	}
-	
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
@@ -4309,6 +4391,10 @@ settlement
 	building
 	{
 		type port_buildings port
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -4459,24 +4545,6 @@ settlement
 	}
 }
 
-settlement
-{
-	level city
-	region Transalpine_Gaul
-
-	year_founded 0
-	population 1200
-	plan_set default_set
-	faction_creator macedon
-	building
-	{
-		type core_building governors_house
-	}
-	building
-	{
-		type defenses wooden_pallisade
-	}
-}
 
 settlement
 {
@@ -4533,6 +4601,10 @@ settlement
 	building
 	{
 		type port_buildings port
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -4858,12 +4930,6 @@ army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		barb horse archers slave				exp 0 armour 0 weapon_lvl 0
-
-character	sub_faction greek_cities, Cleon, general, age 20, , x 67, y 82
-
-army
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
-unit		greek hoplite militia				exp 1 armour 0 weapon_lvl 0
 
 character	sub_faction greek_cities, Damon, general, age 20, , x 160, y 73
 
