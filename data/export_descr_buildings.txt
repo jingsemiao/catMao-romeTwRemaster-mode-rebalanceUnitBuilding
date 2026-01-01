@@ -140,6 +140,7 @@ building core_building
 				recruit "roman peasant"  0
 				agent diplomat  0
 				happiness_bonus bonus 1 requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } and is_toggled "settlement condition"
+				law_bonus bonus 1  requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } and is_toggled "settlement condition"
 			}
 			construction  4 
 			cost  3200 
@@ -165,7 +166,8 @@ building core_building
 				recruit "roman peasant"  0
 				agent diplomat  0
 				recruit "roman praetorian cohort i"  0  requires major_event "marian_reforms" 
-				happiness_bonus bonus 1 requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } and is_toggled "settlement condition"
+				happiness_bonus bonus 2 requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } and is_toggled "settlement condition"
+				law_bonus bonus 2  requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } and is_toggled "settlement condition"
 			}
 			construction  6 
 			cost  6400 
@@ -1023,7 +1025,7 @@ building market
 				trade_base_income_bonus bonus 5
 				population_growth_bonus bonus 2
 				happiness_bonus bonus 2
-				agent_limit_settlement merchant 2
+				agent_limit_settlement merchant 3
 			}
 			construction  7 
 			cost  9600 
