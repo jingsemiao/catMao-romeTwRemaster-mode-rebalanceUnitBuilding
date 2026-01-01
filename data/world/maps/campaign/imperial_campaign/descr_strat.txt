@@ -1154,7 +1154,7 @@ faction	romans_senate, comfortable_napoleon
 denari	5000
 settlement
 {
-	level city
+	level large_city
 	region Latium
 
 	year_founded 0
@@ -1163,7 +1163,7 @@ settlement
 	faction_creator romans_julii
 	building
 	{
-		type core_building governors_palace
+		type core_building proconsuls_palace
 	}
 	building
 	{
@@ -1171,7 +1171,7 @@ settlement
 	}
 	building
 	{
-		type amphitheatres stone_amphitheatre
+		type amphitheatres urban_amphitheatre
 	}
 	building
 	{
@@ -1200,6 +1200,18 @@ settlement
 	building
 	{
 		type hinterland_mines mines+1
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type health aqueduct
+	}
+	building
+	{
+		type academic ludus_magnus
 	}
 }
 
@@ -4369,7 +4381,7 @@ settlement
 
 settlement
 {
-	level city
+	level huge_city
 	region Attica
 
 	year_founded 0
@@ -4378,7 +4390,7 @@ settlement
 	faction_creator macedon
 	building
 	{
-		type core_building governors_palace
+		type core_building imperial_palace
 	}
 	building
 	{
@@ -4386,7 +4398,7 @@ settlement
 	}
 	building
 	{
-		type academic academy
+		type academic ludus_magnus
 	}
 	building
 	{
@@ -4395,6 +4407,30 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type theatres theatre
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type health aqueduct
+	}
+	building
+	{
+		type smith blacksmith
+	}
+	building
+	{
+		type market forum
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
