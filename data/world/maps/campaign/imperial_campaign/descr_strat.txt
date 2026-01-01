@@ -31,7 +31,7 @@ end
 
 
 start_date	-270 summer
-end_date	14 summer
+end_date	240 summer
 
 brigand_spawn_value 10
 pirate_spawn_value 28
@@ -1459,7 +1459,7 @@ faction	egypt, religious_caesar
 denari	5000
 settlement
 {
-	level large_town
+	level city
 	region Nile_Delta
 
 	year_founded 0
@@ -1468,11 +1468,11 @@ settlement
 	faction_creator egypt
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
 	}
 	building
 	{
@@ -1490,11 +1490,19 @@ settlement
 	{
 		type hinterland_farms farms
 	}
+	building
+	{
+		type academic ludus_magnus
+	}
+	building
+	{
+		type temple_of_law temple_of_law_shrine
+	}
 }
 
 settlement
 {
-	level city
+	level huge_city
 	region Middle_Egypt
 
 	year_founded 0
@@ -1503,7 +1511,7 @@ settlement
 	faction_creator egypt
 	building
 	{
-		type core_building governors_palace
+		type core_building imperial_palace
 	}
 	building
 	{
@@ -1532,6 +1540,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type academic ludus_magnus
 	}
 }
 
