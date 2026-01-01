@@ -6,6 +6,12 @@ SMT_STATE_ICON_CULTURE_PENALTY
 
 faction	slave, balanced_smith
 carthage carthage
+building temple_of_law
+
+
+	icon arena
+	levels stone_amphitheatre urban_amphitheatre great_amphitheatre 
+		stone_amphitheatre requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, }  and building_present_min_level market market
 
 recruit "greek hoplite elite"  0 requires factions { greek_cities, }
 happiness_bonus bonus 1 requires factions { barbarian, carthaginian, eastern, parthia, egyptian, greek, roman, } and is_toggled "settlement condition"

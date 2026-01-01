@@ -2002,7 +2002,7 @@ faction	carthage, balanced_smith
 denari	7000
 settlement
 {
-	level city
+	level huge_city
 	region Africa
 
 	year_founded 0
@@ -2011,7 +2011,7 @@ settlement
 	faction_creator carthage
 	building
 	{
-		type core_building governors_palace
+		type core_building imperial_palace
 	}
 	building
 	{
@@ -2035,11 +2035,15 @@ settlement
 	}
 	building
 	{
-		type temple_of_justice temple_of_justice_temple
+		type temple_of_justice temple_of_justice_shrine
 	}
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type academic ludus_magnus
 	}
 }
 
@@ -2058,15 +2062,19 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses wooden_wall
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
 		type market trader
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -2085,7 +2093,7 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
@@ -2094,6 +2102,14 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type defenses wooden_wall
 	}
 }
 
@@ -2129,7 +2145,7 @@ settlement
 
 settlement
 {
-	level town
+	level city
 	region Baetica
 
 	year_founded 0
@@ -2138,7 +2154,7 @@ settlement
 	faction_creator carthage
 	building
 	{
-		type barracks muster_field
+		type defenses stone_wall
 	}
 	building
 	{
@@ -2146,7 +2162,23 @@ settlement
 	}
 	building
 	{
-		type core_building governors_house
+		type temple_of_justice temple_of_justice_shrine
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
