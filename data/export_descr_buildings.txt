@@ -1896,6 +1896,7 @@ building temple_of_battleforge
 
 			capability
 			{
+				recruit "barb naked fanatics gauls"  1
 				happiness_bonus bonus 4
 				weapon_simple bonus 1
 				recruits_exp_bonus bonus 1
@@ -1915,6 +1916,7 @@ building temple_of_battleforge
 
 			capability
 			{
+				recruit "barb naked fanatics gauls"  1
 				happiness_bonus bonus 5
 				law_bonus bonus 2
 				weapon_simple bonus 1
@@ -2332,7 +2334,7 @@ building temple_of_fun
 
 			capability
 			{
-				happiness_bonus bonus 10
+				happiness_bonus bonus 14
 				population_growth_bonus bonus 2
 				law_bonus bonus 2
 			}
@@ -2457,10 +2459,10 @@ building temple_of_healing
 	icon religion
 	levels temple_of_healing_shrine temple_of_healing_temple temple_of_healing_large_temple temple_of_healing_awesome_temple temple_of_healing_pantheon 
 	{
-		temple_of_healing_shrine requires factions { britons, egyptian, greek, romans_brutii, } and no_other_temple 
+		temple_of_healing_shrine requires factions { britons, egyptian, greek, roman, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { britons, egyptian, greek, romans_brutii, }
+			ai_destruction_hint requires not factions { britons, egyptian, greek, roman, }
 
 			capability
 			{
@@ -2475,10 +2477,10 @@ building temple_of_healing
 				temple_of_healing_temple
 			}
 		}
-		temple_of_healing_temple requires factions { britons, egyptian, greek, romans_brutii, } 
+		temple_of_healing_temple requires factions { britons, egyptian, greek, roman, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { britons, egyptian, greek, romans_brutii, }
+			ai_destruction_hint requires not factions { britons, egyptian, greek, roman, }
 
 			capability
 			{
@@ -2493,10 +2495,10 @@ building temple_of_healing
 				temple_of_healing_large_temple
 			}
 		}
-		temple_of_healing_large_temple requires factions { britons, egyptian, greek, romans_brutii, } 
+		temple_of_healing_large_temple requires factions { britons, egyptian, greek, roman, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { britons, egyptian, greek, romans_brutii, }
+			ai_destruction_hint requires not factions { britons, egyptian, greek, roman, }
 
 			capability
 			{
@@ -2512,10 +2514,10 @@ building temple_of_healing
 				temple_of_healing_awesome_temple
 			}
 		}
-		temple_of_healing_awesome_temple requires factions { egyptian, greek, romans_brutii, } 
+		temple_of_healing_awesome_temple requires factions { egyptian, greek, roman, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { egyptian, greek, romans_brutii, }
+			ai_destruction_hint requires not factions { egyptian, greek, roman, }
 
 			capability
 			{
@@ -2531,10 +2533,10 @@ building temple_of_healing
 				temple_of_healing_pantheon
 			}
 		}
-		temple_of_healing_pantheon requires factions { egyptian, greek,  romans_brutii, } 
+		temple_of_healing_pantheon requires factions { egyptian, greek,  roman, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { egyptian, greek,  romans_brutii, }
+			ai_destruction_hint requires not factions { egyptian, greek,  roman, }
 
 			capability
 			{
@@ -2878,10 +2880,10 @@ building temple_of_law
 	icon religion
 	levels temple_of_law_shrine temple_of_law_temple temple_of_law_large_temple temple_of_law_awesome_temple temple_of_law_pantheon 
 	{
-		temple_of_law_shrine requires factions { scythia, egyptian, romans_scipii, } and no_other_temple 
+		temple_of_law_shrine requires factions { scythia, egyptian, roman, } and no_other_temple 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { scythia, egyptian, romans_scipii, }
+			ai_destruction_hint requires not factions { scythia, egyptian, roman, }
 
 			capability
 			{
@@ -2896,10 +2898,10 @@ building temple_of_law
 				temple_of_law_temple
 			}
 		}
-		temple_of_law_temple requires factions { scythia, egyptian, romans_scipii, } 
+		temple_of_law_temple requires factions { scythia, egyptian, roman, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { scythia, egyptian, romans_scipii, }
+			ai_destruction_hint requires not factions { scythia, egyptian, roman, }
 
 			capability
 			{
@@ -2914,10 +2916,10 @@ building temple_of_law
 				temple_of_law_large_temple
 			}
 		}
-		temple_of_law_large_temple requires factions { scythia, egyptian, romans_scipii, } 
+		temple_of_law_large_temple requires factions { scythia, egyptian, roman, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { scythia, egyptian, romans_scipii, }
+			ai_destruction_hint requires not factions { scythia, egyptian, roman, }
 
 			capability
 			{
@@ -2932,10 +2934,10 @@ building temple_of_law
 				temple_of_law_awesome_temple
 			}
 		}
-		temple_of_law_awesome_temple requires factions { egyptian, romans_scipii, } 
+		temple_of_law_awesome_temple requires factions { egyptian, roman, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { egyptian, romans_scipii, }
+			ai_destruction_hint requires not factions { egyptian, roman, }
 
 			capability
 			{
@@ -2951,10 +2953,10 @@ building temple_of_law
 				temple_of_law_pantheon
 			}
 		}
-		temple_of_law_pantheon requires factions { egyptian, romans_scipii, } 
+		temple_of_law_pantheon requires factions { egyptian, roman, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { egyptian, romans_scipii, }
+			ai_destruction_hint requires not factions { egyptian, roman, }
 
 			capability
 			{
@@ -3065,8 +3067,9 @@ building temple_of_leadership
 			{
 				recruit "roman arcani"  0
 				happiness_bonus bonus 7
-				law_bonus bonus 5
-				population_growth_bonus bonus 2
+				law_bonus bonus 6
+				population_growth_bonus bonus 1
+				recruits_exp_bonus bonus 1
 			}
 			construction  6 
 			cost  6400 
