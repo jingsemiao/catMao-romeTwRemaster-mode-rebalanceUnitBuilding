@@ -131,6 +131,25 @@
 	{
 		"filename": "data\/ui\/units_classic\/seleucid\/#greek_hoplite_elite.tga",
 		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/unit_info\/greek_cities\/greek_royal_pikemen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/greek_cities\/greek_royal_pikemen.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/units\/greek_cities\/#greek_royal_pikemen.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/greek_cities\/#greek_royal_pikemen.tga",
+		"checksum": "Blacklisted"
 	}
 	
 ]
