@@ -382,7 +382,7 @@ building barracks
 				recruit "warband falx thracian"  0
 				recruit "greek hoplite"  0
 				recruit "greek pikemen"  0
-				recruit "greek hoplite elite"  0
+				recruit "greek hoplite elite"  0 requires factions { greek_cities, }
 				recruit "roman city militia"  0
 				recruit "roman hastati"  0  requires not major_event "marian_reforms" 
 				recruit "roman infantry auxillia"  0  requires major_event "marian_reforms" 

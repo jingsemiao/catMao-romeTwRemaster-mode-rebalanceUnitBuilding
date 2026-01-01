@@ -5211,9 +5211,9 @@ stat_charge_dist 30
 stat_fire_delay  0
 stat_food        60, 300
 stat_cost        1, 640, 210, 70, 100, 640
-ownership        greek_cities
+ownership        greek_cities,macedon,seleucid
 ethnicity greek_cities, Crete
- 
+ethnicity macedon,seleucid
  
 type             greek hoplite spartan
 dictionary       greek_hoplite_spartan      ; Spartan Hoplites

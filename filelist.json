@@ -93,6 +93,44 @@
 	{
 		"filename": "data\/ui\/units_classic\/britons\/#barb_archer_dacian.tga",
 		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/unit_info\/macedon\/greek_hoplite_elite_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/macedon\/greek_hoplite_elite_info.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/units\/macedon\/#greek_hoplite_elite.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/macedon\/#greek_hoplite_elite.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/unit_info\/seleucid\/greek_hoplite_elite_info.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/unit_info_classic\/seleucid\/greek_hoplite_elite_info.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/units\/seleucid\/#greek_hoplite_elite.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/units_classic\/seleucid\/#greek_hoplite_elite.tga",
+		"checksum": "Blacklisted"
 	}
 	
 ]
