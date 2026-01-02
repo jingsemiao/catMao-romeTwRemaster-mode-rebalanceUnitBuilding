@@ -2759,7 +2759,7 @@ faction	gauls, religious_smith
 denari	5000
 settlement
 {
-	level large_town
+	level city
 	region Central_Gaul
 
 	year_founded 0
@@ -2768,15 +2768,15 @@ settlement
 	faction_creator gauls
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
@@ -2786,11 +2786,23 @@ settlement
 	{
 		type hinterland_farms farms
 	}
+	building
+	{
+		type missiles archery_range
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type taverns bardic_circle
+	}
 }
 
 settlement
 {
-	level large_town
+	level city
 	region Venetia
 
 	year_founded 0
@@ -2799,19 +2811,23 @@ settlement
 	faction_creator gauls
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
 		type market trader
+	}
+	building
+	{
+		type taverns bardic_circle
 	}
 }
 
@@ -2835,6 +2851,10 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type taverns bardic_circle
 	}
 }
 
@@ -2863,11 +2883,15 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type taverns bardic_circle
+	}
 }
 
 settlement
 {
-	level town
+	level large_town
 	region Aquitania
 
 	year_founded 0
@@ -2876,7 +2900,7 @@ settlement
 	faction_creator gauls
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
@@ -2886,11 +2910,19 @@ settlement
 	{
 		type missiles practice_field
 	}
+	building
+	{
+		type taverns bardic_circle
+	}
+	building
+	{
+		type port_buildings port
+	}
 }
 
 settlement
 {
-	level town
+	level large_town
 	region Armorica
 
 	year_founded 0
@@ -2899,30 +2931,62 @@ settlement
 	faction_creator gauls
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type taverns bardic_circle
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
 settlement
 {
-	level town
+	level city
 	region Narbonensis
 
 	year_founded 0
-	population 1300
+	population 2500
 	plan_set default_set
 	faction_creator gauls
 	building
 	{
-		type core_building governors_house
+		type core_building governors_palace
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market market
+	}
+	building
+	{
+		type taverns bardic_circle
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_mines mines
 	}
 }
 
@@ -2942,8 +3006,9 @@ traits NaturalMilitarySkill 3 , Intelligent 2 , Energetic 1 , Drink 2
 ancillaries drunken_uncle, drinking_companion
 army
 unit		barb chieftain cavalry early gaul				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 0 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 0 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
 
 character	Senaculus of Sabis, diplomat, age 28, , x 88, y 90
@@ -2955,8 +3020,8 @@ ancillaries beastmaster
 army
 unit		barb chieftain cavalry early gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 1 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 1 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 1 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb peltast gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb cavalry gaul				exp 1 armour 0 weapon_lvl 0
 
@@ -2964,7 +3029,7 @@ character	Dumnorix of Bibrax, general, age 20, , x 94, y 90
 
 army
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
 
 character	Voteporix of Alesia, general, age 20, , x 57, y 84
@@ -2972,8 +3037,8 @@ traits NaturalMilitarySkill 1 , Energetic 1
 ancillaries bodyguard
 army
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 0 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 0 armour 0 weapon_lvl 0
 
 character	Casticos of Vesontio, general, age 20, , x 46, y 113
 
@@ -2993,16 +3058,19 @@ unit		barb chieftain cavalry early gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb peltast gaul				exp 0 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 1 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 1 armour 0 weapon_lvl 0
 
 character	Lugotorix, named character, age 18, , x 92, y 91
 traits Intelligent 2 , Austere 1
 ancillaries civilized_slave
 army
 unit		barb chieftain cavalry early gaul				exp 1 armour 0 weapon_lvl 0
-unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
-unit		barb peltast gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb cavalry gaul				exp 1 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 1 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 1 armour 0 weapon_lvl 0
+unit		warband sword gaul				exp 1 armour 0 weapon_lvl 0
+unit		barb peltast gaul				exp 1 armour 0 weapon_lvl 0
 
 character	Bolgios of Lemonum, admiral, age 30, , x 45, y 117
 
@@ -3056,6 +3124,10 @@ settlement
 	building
 	{
 		type missiles practice_field
+	}
+	building
+	{
+		type taverns bardic_circle
 	}
 }
 
@@ -3224,6 +3296,10 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type taverns bardic_circle
 	}
 }
 
@@ -3503,6 +3579,10 @@ settlement
 	building
 	{
 		type missiles practice_field
+	}
+	building
+	{
+		type taverns bardic_circle
 	}
 }
 
@@ -4152,6 +4232,14 @@ settlement
 	{
 		type temple_of_horse_2 temple_of_horse_2_shrine
 	}
+	building
+	{
+		type taverns bardic_circle
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
@@ -4194,7 +4282,7 @@ settlement
 
 settlement
 {
-	level town
+	level large_town
 	region Maeotis
 
 	year_founded 0
@@ -4203,7 +4291,7 @@ settlement
 	faction_creator gauls
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
@@ -4212,6 +4300,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type taverns bardic_circle
 	}
 }
 
@@ -4297,6 +4389,10 @@ settlement
 	{
 		type defenses wooden_pallisade
 	}
+	building
+	{
+		type taverns bardic_circle
+	}
 }
 
 settlement
@@ -4319,6 +4415,10 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type taverns bardic_circle
 	}
 }
 
