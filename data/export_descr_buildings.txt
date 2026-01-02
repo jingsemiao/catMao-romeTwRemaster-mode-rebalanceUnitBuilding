@@ -219,7 +219,7 @@ building defenses
 				stone_wall
 			}
 		}
-		stone_wall requires factions { carthaginian, eastern, parthia, egyptian, greek, roman, } 
+		stone_wall requires factions { barbarian,carthaginian, eastern, parthia, egyptian, greek, roman, } 
 		{
 			capability
 			{
@@ -1417,7 +1417,7 @@ building academic
 	icon school
 	levels academy scriptorium ludus_magnus 
 	{
-		academy requires factions { carthaginian, eastern, parthia, egyptian, greek, roman, }  and building_present_min_level market market
+		academy requires factions { carthaginian, eastern, parthia, egyptian, greek, roman,  }  and building_present_min_level market market
 		{
 			capability
 			{

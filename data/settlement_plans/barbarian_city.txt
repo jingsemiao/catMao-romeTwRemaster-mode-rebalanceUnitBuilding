@@ -22,6 +22,11 @@ strat
 			model	data/models_strat/residences/barb_city_wall_2.CAS
 			base	settlement_barbarian_walled_level_4
 		}
+		stone_wall
+		{
+			model	data/models_strat/residences/roman_city_wall_3.CAS
+			base	settlement_barbarian_walled_level_4
+		}
 	}
 
 	;;models for ports (only relevant for settlements)

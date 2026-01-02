@@ -158,6 +158,20 @@
 	{
 		"filename": "data\/ui\/units_classic\/greek_cities\/#greek_royal_pikemen.tga",
 		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_stone_wall.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_stone_wall_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/construction\/#barbarian_stone_wall.tga",
+		"checksum": "Blacklisted"
 	}
 	
 ]
