@@ -2469,7 +2469,7 @@ faction	parthia, balanced_genghis
 denari	5000
 settlement
 {
-	level large_town
+	level city
 	region Media
 
 	year_founded 0
@@ -2490,11 +2490,35 @@ settlement
 	}
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
 		type equestrian stables
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type caravans silk_rd
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -2547,7 +2571,7 @@ settlement
 
 settlement
 {
-	level large_town
+	level city
 	region Tribus_Sakae
 
 	year_founded 0
@@ -2556,7 +2580,7 @@ settlement
 	faction_creator parthia
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
@@ -2564,7 +2588,27 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type caravans silk_rd
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -2640,7 +2684,7 @@ faction	pontus, trader_napoleon
 denari	3000
 settlement
 {
-	level large_town
+	level huge_city
 	region Pontus
 
 	year_founded 0
@@ -2649,11 +2693,11 @@ settlement
 	faction_creator parthia
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
 	}
 	building
 	{
@@ -2670,6 +2714,14 @@ settlement
 	building
 	{
 		type port_buildings port
+	}
+	building
+	{
+		type academic ludus_magnus
+	}
+	building
+	{
+		type caravans silk_rd
 	}
 }
 
@@ -2697,6 +2749,10 @@ settlement
 	building
 	{
 		type market trader
+	}
+	building
+	{
+		type caravans frankincense_rd
 	}
 }
 
@@ -3440,7 +3496,7 @@ faction	armenia, fortified_henry
 denari	3000
 settlement
 {
-	level large_town
+	level huge_city
 	region Armenia
 
 	year_founded 0
@@ -3449,11 +3505,11 @@ settlement
 	faction_creator parthia
 	building
 	{
-		type core_building governors_villa
+		type core_building imperial_palace
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
 	}
 	building
 	{
@@ -3466,6 +3522,14 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type academic ludus_magnus
+	}
+	building
+	{
+		type caravans silk_rd
 	}
 }
 
@@ -3493,6 +3557,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type caravans frankincense_rd
 	}
 }
 
@@ -4979,6 +5047,49 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+}
+
+settlement
+{
+	level city
+	region Atropatene
+
+	year_founded 0
+	population 2000
+	plan_set default_set
+	faction_creator parthia
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type caravans silk_rd
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type market market
 	}
 }
 
