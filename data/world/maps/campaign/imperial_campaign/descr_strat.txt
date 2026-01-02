@@ -2943,6 +2943,10 @@ settlement
 	{
 		type taverns bardic_circle
 	}
+	building
+	{
+		type temple_of_horse temple_of_horse_large_temple
+	}
 }
 
 settlement
@@ -3043,6 +3047,10 @@ settlement
 	building
 	{
 		type hinterland_mines mines
+	}
+	building
+	{
+		type temple_of_horse temple_of_horse_large_temple
 	}
 }
 
@@ -4469,7 +4477,7 @@ settlement
 	region Lusitania
 
 	year_founded 0
-	population 2200
+	population 3500
 	plan_set default_set
 	faction_creator gauls
 	building
@@ -4487,6 +4495,22 @@ settlement
 	building
 	{
 		type taverns bardic_circle
+	}
+	building
+	{
+		type temple_of_horse temple_of_horse_large_temple
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type barracks muster_field
 	}
 }
 
