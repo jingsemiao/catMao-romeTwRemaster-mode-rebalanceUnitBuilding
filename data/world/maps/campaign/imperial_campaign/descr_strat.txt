@@ -2145,6 +2145,14 @@ settlement
 	{
 		type academic ludus_magnus
 	}
+	building
+	{
+		type despotic_law secret_police_network
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 settlement
@@ -2175,6 +2183,10 @@ settlement
 	building
 	{
 		type port_buildings port
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -2210,6 +2222,10 @@ settlement
 	building
 	{
 		type defenses wooden_wall
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
@@ -2280,28 +2296,43 @@ settlement
 	{
 		type port_buildings port
 	}
+	building
+	{
+		type despotic_law secret_police_hq
+	}
+	building
+	{
+		type academic ludus_magnus
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
 }
 
 character	Hanno, named character, leader, age 65, , x 96, y 49
 traits GoodCommander 2 , GoodDefender 1 , PublicFaith 1 , GoodAdministrator 2 , GoodTrader 1
 ancillaries spymaster
 army
-unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian elephant forest				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 0
-unit		merc balearic slingers				exp 2 armour 0 weapon_lvl 0
-unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian general's cavalry early				exp 6 armour 3 weapon_lvl 3
+unit		carthaginian cavalry				exp 6 armour 2 weapon_lvl 2
+unit		carthaginian elephant forest		exp 6 armour 2 weapon_lvl 2
+unit		carthaginian infantry				exp 6 armour 2 weapon_lvl 2
+unit		carthaginian infantry				exp 6 armour 2 weapon_lvl 2
+unit		merc balearic slingers				exp 6 armour 2 weapon_lvl 2
+unit		merc numidian cavalry				exp 6 armour 2 weapon_lvl 2
+unit		carthaginian medium infantry		exp 0 armour 2 weapon_lvl 2
+
 
 character	Hasdrubal, named character, heir, age 45, , x 82, y 45
 traits NaturalMilitarySkill 3 , GoodDefender 1 , Intelligent 1 , Energetic 1 , GoodAmbusher 2
 ancillaries Herald
 army
-unit		carthaginian general's cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
-unit		carthaginian city militia				exp 1 armour 0 weapon_lvl 0
-unit		merc numidian cavalry				exp 1 armour 0 weapon_lvl 0
+unit		carthaginian general's cavalry early				exp 1 armour 2 weapon_lvl 2
+unit		carthaginian medium infantry				exp 1 armour 2 weapon_lvl 2
+unit		carthaginian heavy infantry				exp 1 armour 2 weapon_lvl 2
+unit		merc numidian cavalry				exp 1 armour 2 weapon_lvl 2
+unit		carthaginian sacred band infantry				exp 1 armour 2 weapon_lvl 2
 
 character	Aqhat, spy, age 27, , x 98, y 47
 traits GoodSpy 4
@@ -3845,7 +3876,7 @@ faction	numidia, balanced_henry
 denari	3000
 settlement
 {
-	level large_town
+	level huge_city
 	region Numidia
 
 	year_founded 0
@@ -3854,7 +3885,7 @@ settlement
 	faction_creator carthage
 	building
 	{
-		type core_building governors_villa
+		type core_building imperial_palace
 	}
 	building
 	{
@@ -3862,17 +3893,37 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
+	}
+	building
+	{
+		type despotic_law secret_police_network
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type academic ludus_magnus
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
 settlement
 {
-	level town
+	level city
 	region Mauretania
 
 	year_founded 0
@@ -3881,15 +3932,27 @@ settlement
 	faction_creator carthage
 	building
 	{
-		type core_building governors_house
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
 	}
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -3909,6 +3972,14 @@ settlement
 	building
 	{
 		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -3932,6 +4003,10 @@ settlement
 	building
 	{
 		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_roads roads
 	}
 }
 
