@@ -769,7 +769,7 @@ superfaction romans_senate
 denari	5000
 settlement
 {
-	level large_town
+	level city
 	region Etruria
 
 	year_founded 0
@@ -782,7 +782,7 @@ settlement
 	}
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
@@ -790,7 +790,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
 	}
 	building
 	{
@@ -799,6 +799,18 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+	building
+	{
+		type academic ludus_magnus
+	}
+	building
+	{
+		type amphitheatres urban_amphitheatre
+	}
+	building
+	{
+		type health city_plumbing
 	}
 }
 
@@ -902,7 +914,7 @@ superfaction romans_senate
 denari	5000
 settlement
 {
-	level large_town
+	level city
 	region Apulia
 
 	year_founded 0
@@ -911,7 +923,7 @@ settlement
 	faction_creator romans_julii
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
@@ -927,7 +939,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
 	}
 	building
 	{
@@ -936,6 +948,18 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type academic ludus_magnus
+	}
+	building
+	{
+		type amphitheatres urban_amphitheatre
+	}
+	building
+	{
+		type health city_plumbing
 	}
 }
 
@@ -1036,7 +1060,7 @@ superfaction romans_senate
 denari	5000
 settlement
 {
-	level large_town
+	level city
 	region Campania
 
 	year_founded 0
@@ -1049,11 +1073,11 @@ settlement
 	}
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
 	}
 	building
 	{
@@ -1062,6 +1086,22 @@ settlement
 	building
 	{
 		type hinterland_farms farms+1
+	}
+	building
+	{
+		type academic ludus_magnus
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type amphitheatres urban_amphitheatre
+	}
+	building
+	{
+		type health city_plumbing
 	}
 }
 
@@ -1171,7 +1211,7 @@ settlement
 	}
 	building
 	{
-		type amphitheatres urban_amphitheatre
+		type amphitheatres great_amphitheatre
 	}
 	building
 	{
@@ -1207,7 +1247,7 @@ settlement
 	}
 	building
 	{
-		type health aqueduct
+		type health city_plumbing
 	}
 	building
 	{
@@ -1479,7 +1519,7 @@ faction	egypt, religious_caesar
 denari	5000
 settlement
 {
-	level city
+	level huge_city
 	region Nile_Delta
 
 	year_founded 0
@@ -1516,7 +1556,11 @@ settlement
 	}
 	building
 	{
-		type temple_of_law temple_of_law_shrine
+		type temple_of_law temple_of_law_pantheon
+	}
+	building
+	{
+		type despotic_law secret_police_network
 	}
 }
 
@@ -1551,7 +1595,7 @@ settlement
 	}
 	building
 	{
-		type temple_of_law temple_of_law_shrine
+		type temple_of_law temple_of_law_pantheon
 	}
 	building
 	{
@@ -1564,6 +1608,10 @@ settlement
 	building
 	{
 		type academic ludus_magnus
+	}
+	building
+	{
+		type despotic_law secret_police_network
 	}
 }
 
