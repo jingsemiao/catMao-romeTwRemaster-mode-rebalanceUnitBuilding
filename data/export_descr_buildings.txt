@@ -1892,7 +1892,7 @@ building temple_of_battleforge
 		temple_of_battleforge_awesome_temple requires factions {  armenia, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions {  armenia, }
+			ai_destruction_hint requires not factions {  spain, gauls, armenia, }
 
 			capability
 			{
@@ -1912,7 +1912,8 @@ building temple_of_battleforge
 		temple_of_battleforge_pantheon requires factions { armenia, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { armenia, }
+			;;ai_destruction_hint requires not factions { armenia, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -1998,7 +1999,7 @@ building temple_of_farming
 		temple_of_farming_awesome_temple requires factions { carthaginian, macedon, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { carthaginian, macedon, }
+			ai_destruction_hint requires not factions { dacia, carthaginian, macedon, }
 
 			capability
 			{
@@ -2016,7 +2017,8 @@ building temple_of_farming
 		temple_of_farming_pantheon requires factions { macedon,carthaginian } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { macedon,carthaginian }
+			;;ai_destruction_hint requires not factions { macedon,carthaginian }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -2103,7 +2105,7 @@ building temple_of_fertility
 		temple_of_fertility_awesome_temple requires factions { egyptian, romans_julii, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { egyptian, romans_julii, }
+			ai_destruction_hint requires not factions { germans, egyptian, romans_julii, }
 
 			capability
 			{
@@ -2122,7 +2124,8 @@ building temple_of_fertility
 		temple_of_fertility_pantheon requires factions { egyptian, romans_julii, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { egyptian, romans_julii, }
+			;;ai_destruction_hint requires not factions { egyptian, romans_julii, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -2209,7 +2212,7 @@ building temple_of_forge
 		temple_of_forge_awesome_temple requires factions { seleucid, romans_scipii, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { seleucid, romans_scipii, }
+			ai_destruction_hint requires not factions { dacia,seleucid, romans_scipii, }
 
 			capability
 			{
@@ -2230,7 +2233,8 @@ building temple_of_forge
 		temple_of_forge_pantheon requires factions { seleucid, romans_scipii, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { seleucid, romans_scipii, }
+			;;ai_destruction_hint requires not factions { seleucid, romans_scipii, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -2330,7 +2334,8 @@ building temple_of_fun
 		temple_of_fun_pantheon requires factions { egyptian, thrace, seleucid, romans_julii,armenia } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { egyptian, thrace, seleucid, romans_julii,armenia }
+			;;ai_destruction_hint requires not factions { egyptian, thrace, seleucid, romans_julii,armenia }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -2431,7 +2436,8 @@ building temple_of_governors
 		temple_of_governors_pantheon requires factions { greek,pontus, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { greek,pontus, }
+			;;ai_destruction_hint requires not factions { greek,pontus, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -2517,7 +2523,7 @@ building temple_of_healing
 		temple_of_healing_awesome_temple requires factions { egyptian, greek, roman, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { egyptian, greek, roman, }
+			ai_destruction_hint requires not factions { britons, egyptian, greek, roman, }
 
 			capability
 			{
@@ -2536,7 +2542,8 @@ building temple_of_healing
 		temple_of_healing_pantheon requires factions { egyptian, greek,  roman, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { egyptian, greek,  roman, }
+			;;ai_destruction_hint requires not factions { egyptian, greek,  roman, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -2603,7 +2610,7 @@ building temple_of_horse
 		temple_of_horse_large_temple requires factions { spain, gauls, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { spain, gauls, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -2618,10 +2625,10 @@ building temple_of_horse
 				temple_of_horse_awesome_temple
 			}
 		}
-		temple_of_horse_awesome_temple requires factions { slave, }
+		temple_of_horse_awesome_temple requires factions { all, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { slave, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -2636,10 +2643,10 @@ building temple_of_horse
 				temple_of_horse_pantheon
 			}
 		}
-		temple_of_horse_pantheon requires factions { slave, }
+		temple_of_horse_pantheon requires factions { all, }
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { slave, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -2721,7 +2728,7 @@ building temple_of_hunting
 		temple_of_hunting_awesome_temple requires factions { macedon, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { macedon, }
+			ai_destruction_hint requires not factions { spain, gauls, macedon, }
 
 			capability
 			{
@@ -2739,7 +2746,8 @@ building temple_of_hunting
 		temple_of_hunting_pantheon requires factions { macedon, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { macedon, }
+			;;ai_destruction_hint requires not factions { macedon, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -2827,7 +2835,7 @@ building temple_of_justice
 		temple_of_justice_awesome_temple requires factions { carthaginian, egyptian, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { carthaginian, egyptian, }
+			ai_destruction_hint requires not factions { spain, gauls, carthaginian, egyptian, }
 
 			capability
 			{
@@ -2849,7 +2857,8 @@ building temple_of_justice
 		temple_of_justice_pantheon requires factions { egyptian,carthaginian } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { egyptian,carthaginian }
+			;;ai_destruction_hint requires not factions { egyptian,carthaginian }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -2937,7 +2946,7 @@ building temple_of_law
 		temple_of_law_awesome_temple requires factions { egyptian, roman, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { egyptian, roman, }
+			ai_destruction_hint requires not factions { scythia, egyptian, roman, }
 
 			capability
 			{
@@ -2956,7 +2965,8 @@ building temple_of_law
 		temple_of_law_pantheon requires factions { egyptian, roman, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { egyptian, roman, }
+			;;ai_destruction_hint requires not factions { scythia, egyptian, roman, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -3061,7 +3071,8 @@ building temple_of_leadership
 		temple_of_leadership_pantheon requires factions { greek_cities, romans_julii,armenia, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { greek_cities, romans_julii,armenia, }
+			;;ai_destruction_hint requires not factions { greek_cities, romans_julii,armenia, }
+			ai_destruction_hint requires not factions { all,}
 
 			capability
 			{
@@ -3149,7 +3160,7 @@ building temple_of_love
 		temple_of_love_awesome_temple requires factions { pontus, greek_cities, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { pontus, greek_cities, }
+			ai_destruction_hint requires not factions { scythia, pontus, greek_cities, }
 
 			capability
 			{
@@ -3169,7 +3180,8 @@ building temple_of_love
 		temple_of_love_pantheon requires factions { greek_cities,pontus, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { greek_cities,pontus, }
+			;;ai_destruction_hint requires not factions { scythia, pontus, greek_cities, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -3271,7 +3283,8 @@ building temple_of_naval
 		temple_of_naval_pantheon requires factions { romans_scipii, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { romans_scipii, }
+			;;ai_destruction_hint requires not factions { romans_scipii, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -3379,7 +3392,8 @@ building temple_of_one_god
 		temple_of_one_god_pantheon requires factions { parthia, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { parthia, }
+			;;ai_destruction_hint requires not factions { parthia, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -3466,7 +3480,7 @@ building temple_of_trade
 		temple_of_trade_awesome_temple requires factions { carthaginian, greek, romans_brutii, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { carthaginian, greek, romans_brutii, }
+			ai_destruction_hint requires not factions { britons, carthaginian, greek, romans_brutii, }
 
 			capability
 			{
@@ -3485,7 +3499,9 @@ building temple_of_trade
 		temple_of_trade_pantheon requires factions { greek, romans_brutii,carthaginian, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { greek, romans_brutii,carthaginian, }
+			;;ai_destruction_hint requires not factions { britons, carthaginian, greek, romans_brutii, }
+			ai_destruction_hint requires not factions { all, }
+
 
 			capability
 			{
@@ -3574,7 +3590,7 @@ building temple_of_victory
 		temple_of_victory_awesome_temple requires factions { greek, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { greek, }
+			ai_destruction_hint requires not factions { britons, greek, }
 
 			capability
 			{
@@ -3594,7 +3610,8 @@ building temple_of_victory
 		temple_of_victory_pantheon requires factions { greek, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { greek, }
+			;;ai_destruction_hint requires not factions { britons, greek, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
@@ -3681,7 +3698,7 @@ building temple_of_violence
 		temple_of_violence_awesome_temple requires factions { pontus, macedon, romans_brutii, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { pontus, macedon, romans_brutii, }
+			ai_destruction_hint requires not factions { germans, pontus, macedon, romans_brutii, }
 
 			capability
 			{
@@ -3701,7 +3718,8 @@ building temple_of_violence
 		temple_of_violence_pantheon requires factions { macedon, romans_brutii,pontus, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { macedon, romans_brutii,pontus, }
+			;;ai_destruction_hint requires not factions { germans, pontus, macedon, romans_brutii, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
