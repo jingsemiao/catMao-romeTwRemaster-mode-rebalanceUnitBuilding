@@ -447,6 +447,7 @@ building barracks
 				recruit "greek hoplite spartan"  0  requires hidden_resource sparta
 				recruit "greek bastarnae"  0
 				recruit "roman city militia"  0
+				recruit "greek argyraspid"  0
 				recruit "roman hastati"  0  requires not major_event "marian_reforms" 
 				recruit "roman infantry auxillia"  0  requires major_event "marian_reforms" 
 				recruit "roman princeps"  0  requires not major_event "marian_reforms" 
@@ -508,10 +509,10 @@ building barracks
 				recruit "greek pikemen"  0
 				recruit "greek hoplite elite"  0
 				recruit "greek royal pikemen"  0
-				recruit "greek silver shield pikemen"  0
+				recruit "greek silver shield pikemen"  1
 				recruit "greek hoplite spartan"  0  requires hidden_resource sparta
 				recruit "greek bastarnae"  0
-				recruit "greek argyraspid"  0
+				recruit "greek argyraspid"  1
 				recruit "roman city militia"  0
 				recruit "roman hastati"  0  requires not major_event "marian_reforms" 
 				recruit "roman infantry auxillia"  0  requires major_event "marian_reforms" 
