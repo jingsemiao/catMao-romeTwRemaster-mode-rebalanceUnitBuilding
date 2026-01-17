@@ -1528,7 +1528,7 @@ settlement
 	faction_creator egypt
 	building
 	{
-		type core_building governors_palace
+		type core_building imperial_palace
 	}
 	building
 	{
