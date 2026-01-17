@@ -1309,7 +1309,7 @@ faction	macedon, fortified_napoleon
 denari	5000
 settlement
 {
-	level city
+	level huge_city
 	region Macedonia
 
 	year_founded 0
@@ -1318,7 +1318,7 @@ settlement
 	faction_creator macedon
 	building
 	{
-		type core_building governors_palace
+		type core_building imperial_palace
 	}
 	building
 	{
@@ -1387,7 +1387,7 @@ settlement
 
 settlement
 {
-	level large_town
+	level city
 	region Thessalia
 
 	year_founded 0
@@ -1396,7 +1396,7 @@ settlement
 	faction_creator macedon
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
@@ -1404,7 +1404,7 @@ settlement
 	}
 	building
 	{
-		type defenses wooden_pallisade
+		type defenses stone_wall
 	}
 	building
 	{
@@ -1914,7 +1914,7 @@ settlement
 
 settlement
 {
-	level city
+	level huge_city
 	region Cilicia
 
 	year_founded 0
@@ -1923,7 +1923,7 @@ settlement
 	faction_creator macedon
 	building
 	{
-		type core_building governors_palace
+		type core_building imperial_palace
 	}
 	building
 	{
@@ -1980,7 +1980,7 @@ settlement
 
 settlement
 {
-	level city
+	level large_city
 	region Babylonia
 
 	year_founded 0
@@ -1989,7 +1989,7 @@ settlement
 	faction_creator macedon
 	building
 	{
-		type core_building governors_palace
+		type core_building proconsuls_palace
 	}
 	building
 	{
@@ -2013,7 +2013,7 @@ settlement
 	}
 	building
 	{
-		type academic academy
+		type academic ludus_magnus
 	}
 	building
 	{
@@ -2469,13 +2469,17 @@ faction	parthia, balanced_genghis
 denari	5000
 settlement
 {
-	level city
+	level huge_city
 	region Media
 
 	year_founded 0
 	population 3600
 	plan_set default_set
 	faction_creator parthia
+	building
+	{
+		type core_building imperial_palace
+	}
 	building
 	{
 		type barracks muster_field
@@ -2490,10 +2494,6 @@ settlement
 	}
 	building
 	{
-		type core_building governors_palace
-	}
-	building
-	{
 		type equestrian stables
 	}
 	building
@@ -2502,7 +2502,7 @@ settlement
 	}
 	building
 	{
-		type academic academy
+		type academic ludus_magnus
 	}
 	building
 	{
@@ -4886,7 +4886,7 @@ settlement
 
 settlement
 {
-	level city
+	level huge_city
 	region Propontis
 
 	year_founded 0
@@ -4895,7 +4895,7 @@ settlement
 	faction_creator macedon
 	building
 	{
-		type core_building governors_palace
+		type core_building imperial_palace
 	}
 	building
 	{
