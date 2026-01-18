@@ -1723,6 +1723,32 @@ building taverns
 	{
 	}
 }
+
+building ethnic_root
+{
+	icon farming
+	levels ethnic_root_1
+	{
+		ethnic_root_1 requires factions { all,}
+		{
+			capability
+			{
+				farming_level 1
+			}
+			construction  2 
+			cost  600 
+			settlement_min town
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+
 building temple_of_battle
 {
 	tag temple

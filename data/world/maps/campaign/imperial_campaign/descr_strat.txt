@@ -5,8 +5,6 @@ playable
 	romans_julii
 	romans_brutii
 	romans_scipii
-end
-unlockable
 	egypt
 	seleucid
 	carthage
@@ -23,10 +21,12 @@ unlockable
 	scythia
 	spain
 	thrace
+	slave
+end
+unlockable
 end
 nonplayable
 	romans_senate
-	slave
 end
 
 
@@ -811,6 +811,10 @@ settlement
 	building
 	{
 		type health city_plumbing
+	}
+	building
+	{
+		type ethnic_root ethnic_root_1
 	}
 }
 

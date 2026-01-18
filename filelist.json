@@ -172,6 +172,19 @@
 	{
 		"filename": "data\/ui\/barbarian\/buildings\/construction\/#barbarian_stone_wall.tga",
 		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/roman\/buildings\/#roman_ethnic_root_1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/roman\/buildings\/#roman_ethnic_root_1_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/roman\/buildings\/construction\/#roman_ethnic_root_1.tga",
+		"checksum": "Blacklisted"
 	}
 	
 ]
