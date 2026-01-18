@@ -1724,7 +1724,7 @@ building taverns
 	}
 }
 
-building ethnic_root
+building hinterland_ethnic_root
 {
 	icon farming
 	levels ethnic_root_1

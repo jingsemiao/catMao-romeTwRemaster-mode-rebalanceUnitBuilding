@@ -814,7 +814,7 @@ settlement
 	}
 	building
 	{
-		type ethnic_root ethnic_root_1
+		type hinterland_ethnic_root ethnic_root_1
 	}
 }
 
