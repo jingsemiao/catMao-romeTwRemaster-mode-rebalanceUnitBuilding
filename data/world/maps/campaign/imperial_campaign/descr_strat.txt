@@ -2819,7 +2819,7 @@ settlement
 	region Central_Gaul
 
 	year_founded 0
-	population 3400
+	population 6000
 	plan_set default_set
 	faction_creator gauls
 	building
@@ -2832,7 +2832,7 @@ settlement
 	}
 	building
 	{
-		type barracks militia_barracks
+		type barracks city_barracks
 	}
 	building
 	{
@@ -2853,6 +2853,10 @@ settlement
 	building
 	{
 		type taverns bardic_circle
+	}
+	building
+	{
+		type temple_of_horse temple_of_horse_large_temple
 	}
 }
 
@@ -2885,6 +2889,10 @@ settlement
 	{
 		type taverns bardic_circle
 	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
@@ -2911,6 +2919,10 @@ settlement
 	building
 	{
 		type taverns bardic_circle
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -2947,6 +2959,10 @@ settlement
 	{
 		type temple_of_horse temple_of_horse_large_temple
 	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
@@ -2978,6 +2994,10 @@ settlement
 	{
 		type port_buildings port
 	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
@@ -3004,6 +3024,10 @@ settlement
 	building
 	{
 		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -3166,7 +3190,7 @@ faction	germans, balanced_mao
 denari	5000
 settlement
 {
-	level large_town
+	level city
 	region Tribus_Chattii
 
 	year_founded 0
@@ -3175,7 +3199,7 @@ settlement
 	faction_creator gauls
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
@@ -3183,7 +3207,7 @@ settlement
 	}
 	building
 	{
-		type barracks muster_field
+		type barracks militia_barracks
 	}
 	building
 	{
@@ -3192,6 +3216,10 @@ settlement
 	building
 	{
 		type taverns bardic_circle
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -3211,6 +3239,14 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type taverns tavern
 	}
 }
 
@@ -3235,6 +3271,14 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type taverns tavern
+	}
 }
 
 settlement
@@ -3249,6 +3293,14 @@ settlement
 	building
 	{
 		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type taverns tavern
 	}
 }
 
@@ -3268,6 +3320,14 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type taverns tavern
 	}
 }
 
@@ -3629,7 +3689,7 @@ faction	dacia, balanced_stalin
 denari	3000
 settlement
 {
-	level large_town
+	level city
 	region Dacia
 
 	year_founded 0
@@ -3638,7 +3698,7 @@ settlement
 	faction_creator gauls
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
@@ -3660,6 +3720,10 @@ settlement
 	{
 		type taverns bardic_circle
 	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
@@ -3678,6 +3742,14 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type taverns tavern
+	}
+	building
+	{
+		type hinterland_farms farms
 	}
 }
 
@@ -4335,6 +4407,10 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type taverns tavern
+	}
 }
 
 settlement
@@ -4353,6 +4429,10 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type taverns tavern
 	}
 }
 
@@ -5141,13 +5221,25 @@ settlement
 
 settlement
 {
-	level village
+	level town
 	region Locus_Gothi
 
 	year_founded 0
-	population 800
+	population 1200
 	plan_set default_set
 	faction_creator gauls
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type taverns tavern
+	}
 }
 
 settlement
