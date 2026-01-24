@@ -20,11 +20,22 @@
 ;   temple_*|christian_acedemic
 ;	   religious
 ; Explicit classification overrides the automatic classification, so if you don't like the above classifications, you can overule them.
+; 在建筑大类前加上前缀 hinterland 后,就可以实现建筑禁止拆除的选项
+
+; 这个游戏默认设置有个很坑的地方
+; 就是假设我设置一个建筑让一个派系无法建造，但是开局又给他添加上了。
+; 那么默认就是罗马文化，但是一旦改成能建造，开局又会恢复成本派系的文化
+
 
 ;;exclusivity tags, used for the "no_building_tagged" condition
 tags
 {
 	temple
+}
+
+tags
+{
+	tag_ehitcroot
 }
 
 ;;alises, give multiple conditions a string (or allow conditions with normally no string to display one)
@@ -39,6 +50,13 @@ tags
 alias no_other_temple
 {
 	requires no_building_tagged temple queued
+
+	display_string SMT_TECH_TREE_THREAD_REQUIRES_TEMPLE_DESTRUCTION
+}
+
+alias no_other_tag_ethicroot
+{
+	requires no_building_tagged tag_ehitcroot queued
 
 	display_string SMT_TECH_TREE_THREAD_REQUIRES_TEMPLE_DESTRUCTION
 }
@@ -1228,7 +1246,7 @@ building health
 				city_plumbing
 			}
 		}
-		city_plumbing requires factions { roman,greek }  and building_present_min_level market great_forum
+		city_plumbing requires factions { roman,greek, }  and building_present_min_level market great_forum
 		{
 			capability
 			{
@@ -1723,6 +1741,184 @@ building taverns
 	{
 	}
 }
+
+
+; 再建筑大类前加上前缀 hinterland 后,就可以实现建筑禁止拆除的选项
+building hinterland_ethnic_root_rome
+{
+	tag tag_ehitcroot
+	icon farming
+	levels ethnic_root_rome_1 ethnic_root_rome_2 ethnic_root_rome_3 ethnic_root_rome_4 ethnic_root_rome_5
+	{
+		ethnic_root_rome_1 requires factions { roman, } and no_other_tag_ethicroot
+		{
+			capability
+			{
+				farming_level 1
+			}
+			construction  2 
+			cost  600 
+			settlement_min town
+			upgrades
+			{
+				ethnic_root_rome_2
+			}
+		}
+		ethnic_root_rome_2 requires factions { roman, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 1
+			}
+			construction  3 
+			cost  1200 
+			settlement_min large_town
+			upgrades
+			{
+				ethnic_root_rome_3
+			}
+		}
+		ethnic_root_rome_3 requires factions { roman, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 1
+				law_bonus bonus 1
+			}
+			construction  4 
+			cost  2400 
+			settlement_min city
+			upgrades
+			{
+				ethnic_root_rome_4
+			}
+		}
+		ethnic_root_rome_4 requires factions { roman, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 2
+				law_bonus bonus 1
+			}
+			construction  6 
+			cost  4800 
+			settlement_min large_city
+			upgrades
+			{
+				ethnic_root_rome_5
+			}
+		}
+		ethnic_root_rome_5 requires factions { roman, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 2
+				law_bonus bonus 2
+			}
+			construction  7 
+			cost  9600 
+			settlement_min huge_city
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+
+building hinterland_ethnic_root_barbarian
+{
+	tag tag_ehitcroot
+	icon farming
+	levels ethnic_root_barbarian_1 ethnic_root_barbarian_2 ethnic_root_barbarian_3 ethnic_root_barbarian_4 ethnic_root_barbarian_5
+	{
+		ethnic_root_barbarian_1 requires factions { barbarian, } and no_other_tag_ethicroot
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 1
+			}
+			construction  2 
+			cost  600 
+			settlement_min town
+			upgrades
+			{
+				ethnic_root_barbarian_2
+			}
+		}
+		ethnic_root_barbarian_2 requires factions { barbarian, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 2
+			}
+			construction  3 
+			cost  1200 
+			settlement_min large_town
+			upgrades
+			{
+				ethnic_root_barbarian_3
+			}
+		}
+		ethnic_root_barbarian_3 requires factions { barbarian, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 3
+			}
+			construction  4 
+			cost  2400 
+			settlement_min city
+			upgrades
+			{
+				ethnic_root_barbarian_4
+			}
+		}
+		ethnic_root_barbarian_4 requires factions { barbarian, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 4
+			}
+			construction  4 
+			cost  2400 
+			settlement_min large_city
+			upgrades
+			{
+				ethnic_root_barbarian_5
+			}
+		}
+		ethnic_root_barbarian_5 requires factions { barbarian, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 4
+			}
+			construction  7 
+			cost  9600 
+			settlement_min huge_city
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
 building temple_of_battle
 {
 	tag temple

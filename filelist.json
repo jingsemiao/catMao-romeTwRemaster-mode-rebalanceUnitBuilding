@@ -172,6 +172,134 @@
 	{
 		"filename": "data\/ui\/barbarian\/buildings\/construction\/#barbarian_stone_wall.tga",
 		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/roman\/buildings\/#roman_ethnic_root_rome_1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/roman\/buildings\/#roman_ethnic_root_rome_1_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/roman\/buildings\/construction\/#roman_ethnic_root_rome_1.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+
+	{
+		"filename": "data\/ui\/roman\/buildings\/#roman_ethnic_root_rome_2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/roman\/buildings\/#roman_ethnic_root_rome_2_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/roman\/buildings\/construction\/#roman_ethnic_root_rome_2.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/roman\/buildings\/#roman_ethnic_root_rome_3.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/roman\/buildings\/#roman_ethnic_root_rome_3_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/roman\/buildings\/construction\/#roman_ethnic_root_rome_3.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/roman\/buildings\/#roman_ethnic_root_rome_4.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/roman\/buildings\/#roman_ethnic_root_rome_4_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/roman\/buildings\/construction\/#roman_ethnic_root_rome_4.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/roman\/buildings\/#roman_ethnic_root_rome_5.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/roman\/buildings\/#roman_ethnic_root_rome_5_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/roman\/buildings\/construction\/#roman_ethnic_root_rome_5.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+
+
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_ethnic_root_barbarian_2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_ethnic_root_barbarian_2_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/construction\/#barbarian_ethnic_root_barbarian_2.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_ethnic_root_barbarian_3.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_ethnic_root_barbarian_3_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/construction\/#barbarian_ethnic_root_barbarian_3.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_ethnic_root_barbarian_4.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_ethnic_root_barbarian_4_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/construction\/#barbarian_ethnic_root_barbarian_4.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_ethnic_root_barbarian_5.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_ethnic_root_barbarian_5_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/construction\/#barbarian_ethnic_root_barbarian_5.tga",
+		"checksum": "Blacklisted"
 	}
-	
+
+
 ]
