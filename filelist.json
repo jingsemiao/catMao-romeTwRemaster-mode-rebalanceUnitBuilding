@@ -248,6 +248,19 @@
 
 
 	{
+		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_ethnic_root_barbarian_1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_ethnic_root_barbarian_1_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/barbarian\/buildings\/construction\/#barbarian_ethnic_root_barbarian_1.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
 		"filename": "data\/ui\/barbarian\/buildings\/#barbarian_ethnic_root_barbarian_2.tga",
 		"checksum": "Blacklisted"
 	},
@@ -299,7 +312,81 @@
 	{
 		"filename": "data\/ui\/barbarian\/buildings\/construction\/#barbarian_ethnic_root_barbarian_5.tga",
 		"checksum": "Blacklisted"
+	},
+
+
+
+
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_ethnic_root_greek_1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_ethnic_root_greek_1_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/construction\/#greek_ethnic_root_greek_1.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_ethnic_root_greek_2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_ethnic_root_greek_2_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/construction\/#greek_ethnic_root_greek_2.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_ethnic_root_greek_3.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_ethnic_root_greek_3_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/construction\/#greek_ethnic_root_greek_3.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_ethnic_root_greek_4.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_ethnic_root_greek_4_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/construction\/#greek_ethnic_root_greek_4.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_ethnic_root_greek_5.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/#greek_ethnic_root_greek_5_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/greek\/buildings\/construction\/#greek_ethnic_root_greek_5.tga",
+		"checksum": "Blacklisted"
 	}
+
+
+
+	
 
 
 ]

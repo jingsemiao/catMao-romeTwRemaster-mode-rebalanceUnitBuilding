@@ -3214,4 +3214,20 @@ ethnic_root_barbarian_5
 ethnic_root_barbarian_5_desc
 ethnic_root_barbarian_5_desc_short
 
+ethnic_root_greek_1
+ethnic_root_greek_1_desc
+ethnic_root_greek_1_desc_short
+ethnic_root_greek_2
+ethnic_root_greek_2_desc
+ethnic_root_greek_2_desc_short
+ethnic_root_greek_3
+ethnic_root_greek_3_desc
+ethnic_root_greek_3_desc_short
+ethnic_root_greek_4
+ethnic_root_greek_4_desc
+ethnic_root_greek_4_desc_short
+ethnic_root_greek_5
+ethnic_root_greek_5_desc
+ethnic_root_greek_5_desc_short
+
 
