@@ -453,6 +453,76 @@
 	{
 		"filename": "data\/ui\/egyptian\/buildings\/construction\/#egyptian_ethnic_root_egyptian_5.tga",
 		"checksum": "Blacklisted"
+	},
+
+
+
+
+	{
+		"filename": "data\/ui\/eastern\/buildings\/#eastern_ethnic_root_eastern_1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/eastern\/buildings\/#eastern_ethnic_root_eastern_1_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_ethnic_root_eastern_1.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/eastern\/buildings\/#eastern_ethnic_root_eastern_2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/eastern\/buildings\/#eastern_ethnic_root_eastern_2_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_ethnic_root_eastern_2.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/eastern\/buildings\/#eastern_ethnic_root_eastern_3.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/eastern\/buildings\/#eastern_ethnic_root_eastern_3_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_ethnic_root_eastern_3.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/eastern\/buildings\/#eastern_ethnic_root_eastern_4.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/eastern\/buildings\/#eastern_ethnic_root_eastern_4_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_ethnic_root_eastern_4.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/eastern\/buildings\/#eastern_ethnic_root_eastern_5.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/eastern\/buildings\/#eastern_ethnic_root_eastern_5_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_ethnic_root_eastern_5.tga",
+		"checksum": "Blacklisted"
 	}
 
 
