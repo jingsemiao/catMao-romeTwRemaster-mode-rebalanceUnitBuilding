@@ -2009,6 +2009,95 @@ building hinterland_ethnic_root_greek
 }
 
 
+building hinterland_ethnic_root_egyptian
+{
+	tag tag_ehitcroot
+	icon farming
+	levels ethnic_root_egyptian_1 ethnic_root_egyptian_2 ethnic_root_egyptian_3 ethnic_root_egyptian_4 ethnic_root_egyptian_5
+	{
+		ethnic_root_egyptian_1 requires factions { egyptian, } and no_other_tag_ethicroot
+		{
+			capability
+			{
+				farming_level 1
+			}
+			construction  1
+			cost  1 
+			settlement_min town
+			upgrades
+			{
+				ethnic_root_egyptian_2
+			}
+		}
+		ethnic_root_egyptian_2 requires factions { egyptian, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 1
+			}
+			construction  3 
+			cost  1200 
+			settlement_min large_town
+			upgrades
+			{
+				ethnic_root_egyptian_3
+			}
+		}
+		ethnic_root_egyptian_3 requires factions { egyptian, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 1
+				law_bonus bonus 1
+			}
+			construction  4 
+			cost  2400 
+			settlement_min city
+			upgrades
+			{
+				ethnic_root_egyptian_4
+			}
+		}
+		ethnic_root_egyptian_4 requires factions { egyptian, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 2
+				law_bonus bonus 1
+			}
+			construction  6 
+			cost  4800 
+			settlement_min large_city
+			upgrades
+			{
+				ethnic_root_egyptian_5
+			}
+		}
+		ethnic_root_egyptian_5 requires factions { egyptian, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 2
+				law_bonus bonus 2
+			}
+			construction  7 
+			cost  9600 
+			settlement_min huge_city
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
+
 building temple_of_battle
 {
 	tag temple

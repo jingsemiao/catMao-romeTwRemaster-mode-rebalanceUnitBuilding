@@ -382,6 +382,77 @@
 	{
 		"filename": "data\/ui\/greek\/buildings\/construction\/#greek_ethnic_root_greek_5.tga",
 		"checksum": "Blacklisted"
+	},
+
+
+	
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/#egyptian_ethnic_root_egyptian_1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/#egyptian_ethnic_root_egyptian_1_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/construction\/#egyptian_ethnic_root_egyptian_1.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/#egyptian_ethnic_root_egyptian_2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/#egyptian_ethnic_root_egyptian_2_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/construction\/#egyptian_ethnic_root_egyptian_2.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/#egyptian_ethnic_root_egyptian_3.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/#egyptian_ethnic_root_egyptian_3_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/construction\/#egyptian_ethnic_root_egyptian_3.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/#egyptian_ethnic_root_egyptian_4.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/#egyptian_ethnic_root_egyptian_4_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/construction\/#egyptian_ethnic_root_egyptian_4.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/#egyptian_ethnic_root_egyptian_5.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/#egyptian_ethnic_root_egyptian_5_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/egyptian\/buildings\/construction\/#egyptian_ethnic_root_egyptian_5.tga",
+		"checksum": "Blacklisted"
 	}
 
 
