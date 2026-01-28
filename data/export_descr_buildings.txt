@@ -2185,6 +2185,94 @@ building hinterland_ethnic_root_eastern
 	}
 }
 
+building hinterland_ethnic_root_carthaginian
+{
+	tag tag_ehitcroot
+	icon farming
+	levels ethnic_root_carthaginian_1 ethnic_root_carthaginian_2 ethnic_root_carthaginian_3 ethnic_root_carthaginian_4 ethnic_root_carthaginian_5
+	{
+		ethnic_root_carthaginian_1 requires factions { carthaginian, } and no_other_tag_ethicroot
+		{
+			capability
+			{
+				farming_level 1
+			}
+			construction  1
+			cost  1 
+			settlement_min town
+			upgrades
+			{
+				ethnic_root_carthaginian_2
+			}
+		}
+		ethnic_root_carthaginian_2 requires factions { carthaginian, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 1
+			}
+			construction  3 
+			cost  1200 
+			settlement_min large_town
+			upgrades
+			{
+				ethnic_root_carthaginian_3
+			}
+		}
+		ethnic_root_carthaginian_3 requires factions { carthaginian, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 1
+				law_bonus bonus 1
+			}
+			construction  4 
+			cost  2400 
+			settlement_min city
+			upgrades
+			{
+				ethnic_root_carthaginian_4
+			}
+		}
+		ethnic_root_carthaginian_4 requires factions { carthaginian, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 2
+				law_bonus bonus 1
+			}
+			construction  6 
+			cost  4800 
+			settlement_min large_city
+			upgrades
+			{
+				ethnic_root_carthaginian_5
+			}
+		}
+		ethnic_root_carthaginian_5 requires factions { carthaginian, }
+		{
+			capability
+			{
+				farming_level 1
+				happiness_bonus bonus 2
+				law_bonus bonus 2
+			}
+			construction  7 
+			cost  9600 
+			settlement_min huge_city
+			upgrades
+			{
+			}
+		}
+	}
+	plugins 
+	{
+	}
+}
+
 
 building temple_of_battle
 {
@@ -2289,6 +2377,7 @@ building temple_of_battle
 	{
 	}
 }
+
 building temple_of_battleforge
 {
 	tag temple
@@ -2503,6 +2592,7 @@ building temple_of_farming
 	{
 	}
 }
+
 building temple_of_fertility
 {
 	tag temple
@@ -2610,6 +2700,7 @@ building temple_of_fertility
 	{
 	}
 }
+
 building temple_of_forge
 {
 	tag temple
@@ -2721,6 +2812,7 @@ building temple_of_forge
 	{
 	}
 }
+
 building temple_of_fun
 {
 	tag temple

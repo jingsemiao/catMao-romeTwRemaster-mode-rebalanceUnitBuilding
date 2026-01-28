@@ -523,8 +523,76 @@
 	{
 		"filename": "data\/ui\/eastern\/buildings\/construction\/#eastern_ethnic_root_eastern_5.tga",
 		"checksum": "Blacklisted"
-	}
+	},
 
+
+
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_ethnic_root_carthaginian_1.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_ethnic_root_carthaginian_1_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_ethnic_root_carthaginian_1.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_ethnic_root_carthaginian_2.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_ethnic_root_carthaginian_2_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_ethnic_root_carthaginian_2.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_ethnic_root_carthaginian_3.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_ethnic_root_carthaginian_3_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_ethnic_root_carthaginian_3.tga",
+		"checksum": "Blacklisted"
+	},
+
+
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_ethnic_root_carthaginian_4.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_ethnic_root_carthaginian_4_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_ethnic_root_carthaginian_4.tga",
+		"checksum": "Blacklisted"
+	},
+
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_ethnic_root_carthaginian_5.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/#carthaginian_ethnic_root_carthaginian_5_constructed.tga",
+		"checksum": "Blacklisted"
+	},
+	{
+		"filename": "data\/ui\/carthaginian\/buildings\/construction\/#carthaginian_ethnic_root_carthaginian_5.tga",
+		"checksum": "Blacklisted"
+	}
 
 
 	
