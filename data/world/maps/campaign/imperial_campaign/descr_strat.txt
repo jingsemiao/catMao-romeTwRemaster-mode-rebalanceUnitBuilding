@@ -810,7 +810,11 @@ settlement
 	}
 	building
 	{
-		type health city_plumbing
+		type health aqueduct
+	}
+	building
+	{
+		type hinterland_ethnic_root_rome ethnic_root_rome_5
 	}
 }
 
@@ -842,6 +846,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_ethnic_root_rome ethnic_root_rome_5
 	}
 }
 
@@ -959,7 +967,11 @@ settlement
 	}
 	building
 	{
-		type health city_plumbing
+		type health aqueduct
+	}
+	building
+	{
+		type hinterland_ethnic_root_rome ethnic_root_rome_5
 	}
 }
 
@@ -991,6 +1003,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_ethnic_root_rome ethnic_root_rome_5
 	}
 }
 
@@ -1102,6 +1118,10 @@ settlement
 	building
 	{
 		type health city_plumbing
+	}
+	building
+	{
+		type hinterland_ethnic_root_rome ethnic_root_rome_5
 	}
 }
 
@@ -1247,11 +1267,19 @@ settlement
 	}
 	building
 	{
-		type health city_plumbing
+		type health aqueduct
 	}
 	building
 	{
 		type academic ludus_magnus
+	}
+	building
+	{
+		type hinterland_ethnic_root_rome ethnic_root_rome_5
+	}
+	building
+	{
+		type temple_of_leadership temple_of_leadership_pantheon
 	}
 }
 
