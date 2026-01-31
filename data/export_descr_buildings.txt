@@ -204,6 +204,7 @@ building core_building
 	{
 	}
 }
+
 building defenses
 {
 	icon defense
@@ -303,6 +304,7 @@ building defenses
 	{
 	}
 }
+
 building barracks
 {
 	icon infantry
@@ -561,6 +563,7 @@ building barracks
 	{
 	}
 }
+
 building equestrian
 {
 	icon cavalry
@@ -777,6 +780,7 @@ building equestrian
 	{
 	}
 }
+
 building missiles
 {
 	icon ranged
@@ -963,6 +967,7 @@ building missiles
 	{
 	}
 }
+
 building market
 {
 	icon trade
@@ -1063,6 +1068,7 @@ building market
 	{
 	}
 }
+
 building smith
 {
 	icon armoury
@@ -1142,6 +1148,7 @@ building smith
 	{
 	}
 }
+
 building port_buildings
 {
 	icon navy
@@ -1204,6 +1211,7 @@ building port_buildings
 	{
 	}
 }
+
 building health
 {
 	icon sanitation
@@ -1269,6 +1277,7 @@ building health
 	{
 	}
 }
+
 building hinterland_farms
 {
 	icon farming
@@ -1348,6 +1357,7 @@ building hinterland_farms
 	{
 	}
 }
+
 building hinterland_roads
 {
 	icon roads
@@ -1399,6 +1409,7 @@ building hinterland_roads
 	{
 	}
 }
+
 building hinterland_mines
 {
 	icon mining
@@ -1436,6 +1447,7 @@ building hinterland_mines
 	{
 	}
 }
+
 building academic
 {
 	icon school
@@ -1491,6 +1503,7 @@ building academic
 	{
 	}
 }
+
 building amphitheatres
 {
 	icon arena
@@ -1551,6 +1564,7 @@ building amphitheatres
 	{
 	}
 }
+
 building theatres
 {
 	icon arena
@@ -1602,6 +1616,7 @@ building theatres
 	{
 	}
 }
+
 building despotic_law
 {
 	icon law
@@ -1706,6 +1721,7 @@ building caravans
 	{
 	}
 }
+
 building taverns
 {
 	icon tavern
@@ -2920,6 +2936,7 @@ building temple_of_fun
 	{
 	}
 }
+
 building temple_of_governors
 {
 	tag temple
@@ -3024,6 +3041,7 @@ building temple_of_governors
 	{
 	}
 }
+
 building temple_of_healing
 {
 	tag temple
@@ -3130,6 +3148,7 @@ building temple_of_healing
 	{
 	}
 }
+
 building temple_of_horse
 {
 	tag temple
@@ -3181,6 +3200,7 @@ building temple_of_horse
 			{
 				happiness_bonus bonus 3
 				recruits_exp_bonus bonus 3
+				trade_base_income_bonus bonus 1
 			}
 			construction  3 
 			cost  1600 
@@ -3190,15 +3210,16 @@ building temple_of_horse
 				temple_of_horse_awesome_temple
 			}
 		}
-		temple_of_horse_awesome_temple requires factions { all, }
+		temple_of_horse_awesome_temple requires factions { carthaginian, eastern, parthia, egyptian, greek, roman, }
 		{
 			;;conditions under which the AI will destroy this building
 			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
-				happiness_bonus bonus 4
+				happiness_bonus bonus 3
 				recruits_exp_bonus bonus 4
+				trade_base_income_bonus bonus 1
 			}
 			construction  5 
 			cost  3200 
@@ -3208,15 +3229,16 @@ building temple_of_horse
 				temple_of_horse_pantheon
 			}
 		}
-		temple_of_horse_pantheon requires factions { all, }
+		temple_of_horse_pantheon requires factions { carthaginian, eastern, parthia, egyptian, greek, roman, }
 		{
 			;;conditions under which the AI will destroy this building
 			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
-				happiness_bonus bonus 5
+				happiness_bonus bonus 3
 				recruits_exp_bonus bonus 5
+				trade_base_income_bonus bonus 2
 			}
 			construction  6 
 			cost  6400 
@@ -3230,6 +3252,7 @@ building temple_of_horse
 	{
 	}
 }
+
 building temple_of_hunting
 {
 	tag temple
@@ -3333,6 +3356,7 @@ building temple_of_hunting
 	{
 	}
 }
+
 building temple_of_justice
 {
 	tag temple
@@ -3448,6 +3472,7 @@ building temple_of_justice
 	{
 	}
 }
+
 building temple_of_law
 {
 	tag temple
@@ -3554,6 +3579,7 @@ building temple_of_law
 	{
 	}
 }
+
 building temple_of_leadership
 {
 	tag temple
@@ -3659,6 +3685,7 @@ building temple_of_leadership
 	{
 	}
 }
+
 building temple_of_love
 {
 	tag temple
@@ -3770,6 +3797,7 @@ building temple_of_love
 	{
 	}
 }
+
 building temple_of_naval
 {
 	tag temple
@@ -3873,6 +3901,7 @@ building temple_of_naval
 	{
 	}
 }
+
 building temple_of_one_god
 {
 	tag temple
@@ -3981,6 +4010,7 @@ building temple_of_one_god
 	{
 	}
 }
+
 building temple_of_trade
 {
 	tag temple
@@ -4088,6 +4118,7 @@ building temple_of_trade
 	{
 	}
 }
+
 building temple_of_victory
 {
 	tag temple
@@ -4200,6 +4231,7 @@ building temple_of_victory
 	{
 	}
 }
+
 building temple_of_violence
 {
 	tag temple
@@ -4308,6 +4340,7 @@ building temple_of_violence
 	{
 	}
 }
+
 building temple_of_viking
 {
 	tag temple
@@ -4375,6 +4408,7 @@ building temple_of_viking
 	{
 	}
 }
+
 building temple_of_horse_2
 {
 	tag temple
@@ -4420,12 +4454,13 @@ building temple_of_horse_2
 		temple_of_horse_2_large_temple requires factions { scythia, } 
 		{
 			;;conditions under which the AI will destroy this building
-			ai_destruction_hint requires not factions { scythia, }
+			ai_destruction_hint requires not factions { all, }
 
 			capability
 			{
 				happiness_bonus bonus 3
 				recruits_exp_bonus bonus 3
+				trade_base_income_bonus bonus 1
 			}
 			construction  3 
 			cost  1600 
