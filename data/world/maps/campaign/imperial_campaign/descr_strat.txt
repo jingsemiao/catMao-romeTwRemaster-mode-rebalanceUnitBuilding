@@ -23,10 +23,10 @@ unlockable
 	scythia
 	spain
 	thrace
+	slave
 end
 nonplayable
 	romans_senate
-	slave
 end
 
 
@@ -1380,11 +1380,15 @@ settlement
 	{
 		type theatres lyceum
 	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
+	}
 }
 
 settlement
 {
-	level town
+	level city
 	region Paionia
 
 	year_founded 0
@@ -1397,7 +1401,7 @@ settlement
 	}
 	building
 	{
-		type core_building governors_house
+		type core_building governors_palace
 	}
 	building
 	{
@@ -1410,6 +1414,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
 	}
 }
 
@@ -1442,11 +1450,15 @@ settlement
 	{
 		type hinterland_farms farms
 	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
+	}
 }
 
 settlement
 {
-	level large_town
+	level city
 	region Peloponnesus
 
 	year_founded 0
@@ -1455,7 +1467,7 @@ settlement
 	faction_creator macedon
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
@@ -1472,6 +1484,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
 	}
 }
 
@@ -1915,6 +1931,18 @@ settlement
 	{
 		type hinterland_farms farms
 	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
+	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_3
+	}
+	building
+	{
+		type caravans silk_rd
+	}
 }
 
 settlement
@@ -1937,6 +1965,14 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_1
+	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_3
 	}
 }
 
@@ -1973,6 +2009,18 @@ settlement
 	{
 		type port_buildings port
 	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_1
+	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_3
+	}
+	building
+	{
+		type caravans silk_rd
+	}
 }
 
 settlement
@@ -2003,6 +2051,18 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_1
+	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_3
+	}
+	building
+	{
+		type caravans silk_rd
 	}
 }
 
@@ -2047,6 +2107,18 @@ settlement
 	{
 		type theatres lyceum
 	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
+	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_3
+	}
+	building
+	{
+		type caravans silk_rd
+	}
 }
 
 settlement
@@ -2085,6 +2157,14 @@ settlement
 	building
 	{
 		type port_buildings port
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
+	}
+	building
+	{
+		type caravans caravan
 	}
 }
 
@@ -3869,15 +3949,15 @@ settlement
 	}
 	building
 	{
-		type defenses stone_wall
-	}
-	building
-	{
 		type academic ludus_magnus
 	}
 	building
 	{
 		type theatres lyceum
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
 	}
 }
 
@@ -3913,6 +3993,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
 	}
 }
 
@@ -3953,6 +4037,10 @@ settlement
 	{
 		type academic academy
 	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
+	}
 }
 
 settlement
@@ -3975,6 +4063,10 @@ settlement
 	building
 	{
 		type missiles practice_field
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
 	}
 }
 
@@ -4027,6 +4119,10 @@ settlement
 	{
 		type temple_of_victory temple_of_victory_large_temple
 	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
+	}
 }
 
 settlement
@@ -4077,6 +4173,10 @@ settlement
 	building
 	{
 		type temple_of_victory temple_of_victory_large_temple
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
 	}
 }
 
@@ -4776,6 +4876,14 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_3
+	}
+	building
+	{
+		type hinterland_ethnic_root_barbarian ethnic_root_barbarian_1
+	}
 }
 
 settlement
@@ -4818,6 +4926,14 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_3
+	}
+	building
+	{
+		type hinterland_ethnic_root_barbarian ethnic_root_barbarian_1
 	}
 }
 
@@ -4943,6 +5059,14 @@ settlement
 	{
 		type hinterland_farms farms
 	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_2
+	}
+	building
+	{
+		type hinterland_ethnic_root_barbarian ethnic_root_barbarian_2
+	}
 }
 
 settlement
@@ -4990,6 +5114,16 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_2
+	}
+	building
+	{
+		type hinterland_ethnic_root_barbarian ethnic_root_barbarian_2
+	}
+
+
 }
 
 settlement
@@ -5019,7 +5153,7 @@ settlement
 	}
 	building
 	{
-		type theatres lyceum
+		type theatres theatre
 	}
 	building
 	{
@@ -5028,6 +5162,10 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
 	}
 }
 
@@ -5070,7 +5208,7 @@ settlement
 	}
 	building
 	{
-		type health aqueduct
+		type health city_plumbing
 	}
 	building
 	{
@@ -5083,6 +5221,10 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
 	}
 }
 
@@ -5102,6 +5244,14 @@ settlement
 	building
 	{
 		type defenses wooden_pallisade
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -5272,24 +5422,47 @@ settlement
 
 settlement
 {
-	level village
+	level town
 	region Epirus
 
 	year_founded 0
 	population 900
 	plan_set default_set
 	faction_creator macedon
+
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_3
+	}
 }
 
 settlement
 {
-	level village
+	level town
 	region Crete
 
 	year_founded 0
 	population 1000
 	plan_set default_set
 	faction_creator macedon
+
+
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_5
+	}
+	building
+	{
+		type port_buildings port
+	}
 }
 
 settlement
@@ -5305,13 +5478,22 @@ settlement
 
 settlement
 {
-	level village
+	level town
 	region Bithynia
 
 	year_founded 0
 	population 900
 	plan_set default_set
 	faction_creator macedon
+
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_2
+	}
 }
 
 settlement
@@ -5357,6 +5539,27 @@ settlement
 	plan_set default_set
 	faction_creator carthage
 }
+
+settlement
+{
+	level village
+	region Dalmatia
+
+	year_founded 0
+	population 800
+	plan_set default_set
+	faction_creator macedon
+
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_2
+	}
+	building
+	{
+		type hinterland_ethnic_root_barbarian ethnic_root_barbarian_2
+	}
+}
+
 
 character	sub_faction britons, Brigomaglos, general, age 20, , x 36, y 142
 
