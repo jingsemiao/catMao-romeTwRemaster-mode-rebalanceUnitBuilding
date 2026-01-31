@@ -1791,7 +1791,6 @@ building hinterland_ethnic_root_rome
 			{
 				farming_level 1
 				happiness_bonus bonus 1
-				law_bonus bonus 1
 			}
 			construction  4 
 			cost  2400 
@@ -1806,8 +1805,8 @@ building hinterland_ethnic_root_rome
 			capability
 			{
 				farming_level 1
-				happiness_bonus bonus 2
-				law_bonus bonus 1
+				happiness_bonus bonus 1
+				trade_base_income_bonus bonus 1
 			}
 			construction  6 
 			cost  4800 
@@ -1822,8 +1821,9 @@ building hinterland_ethnic_root_rome
 			capability
 			{
 				farming_level 1
-				happiness_bonus bonus 2
-				law_bonus bonus 2
+				happiness_bonus bonus 1
+				law_bonus bonus 1
+				trade_base_income_bonus bonus 1
 			}
 			construction  7 
 			cost  9600 
@@ -1865,7 +1865,7 @@ building hinterland_ethnic_root_barbarian
 			capability
 			{
 				farming_level 1
-				happiness_bonus bonus 2
+				happiness_bonus bonus 1
 			}
 			construction  3 
 			cost  1200 
@@ -1880,7 +1880,8 @@ building hinterland_ethnic_root_barbarian
 			capability
 			{
 				farming_level 1
-				happiness_bonus bonus 3
+				happiness_bonus bonus 2
+				trade_base_income_bonus bonus 1
 			}
 			construction  4 
 			cost  2400 
@@ -1896,6 +1897,7 @@ building hinterland_ethnic_root_barbarian
 			{
 				farming_level 1
 				happiness_bonus bonus 3
+				trade_base_income_bonus bonus 1
 			}
 			construction  4 
 			cost  2400 
@@ -1911,6 +1913,7 @@ building hinterland_ethnic_root_barbarian
 			{
 				farming_level 1
 				happiness_bonus bonus 3
+				trade_base_income_bonus bonus 1
 			}
 			construction  7 
 			cost  9600 
@@ -1967,7 +1970,6 @@ building hinterland_ethnic_root_greek
 			{
 				farming_level 1
 				happiness_bonus bonus 1
-				law_bonus bonus 1
 			}
 			construction  4 
 			cost  2400 
@@ -1982,8 +1984,8 @@ building hinterland_ethnic_root_greek
 			capability
 			{
 				farming_level 1
-				happiness_bonus bonus 2
-				law_bonus bonus 1
+				happiness_bonus bonus 1
+				trade_base_income_bonus bonus 1
 			}
 			construction  6 
 			cost  4800 
@@ -1998,8 +2000,9 @@ building hinterland_ethnic_root_greek
 			capability
 			{
 				farming_level 1
-				happiness_bonus bonus 2
-				law_bonus bonus 2
+				happiness_bonus bonus 1
+				law_bonus bonus 1
+				trade_base_income_bonus bonus 1
 			}
 			construction  7 
 			cost  9600 
@@ -2056,7 +2059,6 @@ building hinterland_ethnic_root_egyptian
 			{
 				farming_level 1
 				happiness_bonus bonus 1
-				law_bonus bonus 1
 			}
 			construction  4 
 			cost  2400 
@@ -2071,8 +2073,8 @@ building hinterland_ethnic_root_egyptian
 			capability
 			{
 				farming_level 1
-				happiness_bonus bonus 2
-				law_bonus bonus 1
+				happiness_bonus bonus 1
+				trade_base_income_bonus bonus 1
 			}
 			construction  6 
 			cost  4800 
@@ -2087,8 +2089,9 @@ building hinterland_ethnic_root_egyptian
 			capability
 			{
 				farming_level 1
-				happiness_bonus bonus 2
-				law_bonus bonus 2
+				happiness_bonus bonus 1
+				law_bonus bonus 1
+				trade_base_income_bonus bonus 1
 			}
 			construction  7 
 			cost  9600 
@@ -2144,7 +2147,6 @@ building hinterland_ethnic_root_eastern
 			{
 				farming_level 1
 				happiness_bonus bonus 1
-				law_bonus bonus 1
 			}
 			construction  4 
 			cost  2400 
@@ -2159,8 +2161,8 @@ building hinterland_ethnic_root_eastern
 			capability
 			{
 				farming_level 1
-				happiness_bonus bonus 2
-				law_bonus bonus 1
+				happiness_bonus bonus 1
+				trade_base_income_bonus bonus 1
 			}
 			construction  6 
 			cost  4800 
@@ -2175,8 +2177,9 @@ building hinterland_ethnic_root_eastern
 			capability
 			{
 				farming_level 1
-				happiness_bonus bonus 2
-				law_bonus bonus 2
+				happiness_bonus bonus 1
+				law_bonus bonus 1
+				trade_base_income_bonus bonus 1
 			}
 			construction  7 
 			cost  9600 
@@ -2232,7 +2235,6 @@ building hinterland_ethnic_root_carthaginian
 			{
 				farming_level 1
 				happiness_bonus bonus 1
-				law_bonus bonus 1
 			}
 			construction  4 
 			cost  2400 
@@ -2247,8 +2249,8 @@ building hinterland_ethnic_root_carthaginian
 			capability
 			{
 				farming_level 1
-				happiness_bonus bonus 2
-				law_bonus bonus 1
+				happiness_bonus bonus 1
+				trade_base_income_bonus bonus 1
 			}
 			construction  6 
 			cost  4800 
@@ -2263,8 +2265,9 @@ building hinterland_ethnic_root_carthaginian
 			capability
 			{
 				farming_level 1
-				happiness_bonus bonus 2
-				law_bonus bonus 2
+				happiness_bonus bonus 1
+				law_bonus bonus 1
+				trade_base_income_bonus bonus 1
 			}
 			construction  7 
 			cost  9600 
