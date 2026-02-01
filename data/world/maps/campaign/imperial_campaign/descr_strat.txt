@@ -1606,6 +1606,10 @@ settlement
 	{
 		type despotic_law secret_police_network
 	}
+	building
+	{
+		type hinterland_ethnic_root_egyptian ethnic_root_egyptian_5
+	}
 }
 
 settlement
@@ -1657,6 +1661,14 @@ settlement
 	{
 		type despotic_law secret_police_network
 	}
+	building
+	{
+		type hinterland_ethnic_root_egyptian ethnic_root_egyptian_5
+	}
+	building
+	{
+		type port_buildings port
+	}
 }
 
 settlement
@@ -1691,6 +1703,14 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_ethnic_root_egyptian ethnic_root_egyptian_5
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -1742,6 +1762,14 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_5
+	}
+	building
+	{
+		type caravans silk_rd
+	}
 }
 
 settlement
@@ -1776,6 +1804,14 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_5
+	}
+	building
+	{
+		type caravans silk_rd
 	}
 }
 
@@ -1973,6 +2009,10 @@ settlement
 	building
 	{
 		type hinterland_ethnic_root_eastern ethnic_root_eastern_3
+	}
+	building
+	{
+		type caravans frankincense_rd
 	}
 }
 
@@ -2628,6 +2668,11 @@ settlement
 	{
 		type hinterland_farms farms
 	}
+
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_5
+	}
 }
 
 settlement
@@ -2675,6 +2720,11 @@ settlement
 	{
 		type caravans silk_rd
 	}
+
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_5
+	}
 }
 
 settlement
@@ -2717,6 +2767,14 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_1
+	}
+	building
+	{
+		type hinterland_ethnic_root_barbarian ethnic_root_barbarian_1
 	}
 }
 
@@ -2831,6 +2889,14 @@ settlement
 	{
 		type caravans silk_rd
 	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_3
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_1
+	}
 }
 
 settlement
@@ -2861,6 +2927,10 @@ settlement
 	building
 	{
 		type caravans frankincense_rd
+	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_3
 	}
 }
 
@@ -3707,6 +3777,10 @@ settlement
 	{
 		type caravans silk_rd
 	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_5
+	}
 }
 
 settlement
@@ -3737,6 +3811,10 @@ settlement
 	building
 	{
 		type caravans frankincense_rd
+	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_3
 	}
 }
 
@@ -4411,6 +4489,14 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_ethnic_root_carthaginian ethnic_root_carthaginian_3
+	}
+	building
+	{
+		type port_buildings port
 	}
 }
 
@@ -5257,7 +5343,7 @@ settlement
 
 settlement
 {
-	level town
+	level large_town
 	region Regnum_Palmyrae
 
 	year_founded 0
@@ -5266,7 +5352,7 @@ settlement
 	faction_creator parthia
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
@@ -5280,11 +5366,19 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_3
+	}
+	building
+	{
+		type caravans frankincense_rd
+	}
 }
 
 settlement
 {
-	level town
+	level large_town
 	region Cyrenaica
 
 	year_founded 0
@@ -5293,7 +5387,7 @@ settlement
 	faction_creator macedon
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
@@ -5303,11 +5397,23 @@ settlement
 	{
 		type barracks muster_field
 	}
+	building
+	{
+		type hinterland_ethnic_root_carthaginian ethnic_root_carthaginian_1
+	}
+	building
+	{
+		type hinterland_ethnic_root_greek ethnic_root_greek_1
+	}
+	building
+	{
+		type port_buildings port
+	}
 }
 
 settlement
 {
-	level town
+	level large_town
 	region Sinai
 
 	year_founded 0
@@ -5316,7 +5422,7 @@ settlement
 	faction_creator parthia
 	building
 	{
-		type core_building governors_house
+		type core_building governors_villa
 	}
 	building
 	{
@@ -5329,6 +5435,14 @@ settlement
 	building
 	{
 		type barracks muster_field
+	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_3
+	}
+	building
+	{
+		type caravans frankincense_rd
 	}
 }
 
@@ -5372,6 +5486,10 @@ settlement
 	building
 	{
 		type market market
+	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_3
 	}
 }
 
@@ -5520,13 +5638,26 @@ settlement
 
 settlement
 {
-	level village
+	level large_town
 	region Nabataea
 
 	year_founded 0
 	population 900
 	plan_set default_set
 	faction_creator parthia
+
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_3
+	}
+	building
+	{
+		type caravans caravan
+	}
 }
 
 settlement
@@ -5559,6 +5690,31 @@ settlement
 		type hinterland_ethnic_root_barbarian ethnic_root_barbarian_2
 	}
 }
+
+settlement
+{
+	level large_town
+	region Arabia
+
+	year_founded 0
+	population 900
+	plan_set default_set
+	faction_creator parthia
+
+	building
+	{
+		type core_building governors_villa
+	}
+	building
+	{
+		type hinterland_ethnic_root_eastern ethnic_root_eastern_3
+	}
+	building
+	{
+		type caravans caravan
+	}
+}
+
 
 
 character	sub_faction britons, Brigomaglos, general, age 20, , x 36, y 142
