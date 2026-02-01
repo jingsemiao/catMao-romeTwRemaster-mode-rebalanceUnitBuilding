@@ -2319,7 +2319,7 @@ settlement
 	}
 	building
 	{
-		type barracks militia_barracks
+		type barracks city_barracks
 	}
 	building
 	{
@@ -2331,7 +2331,7 @@ settlement
 	}
 	building
 	{
-		type temple_of_justice temple_of_justice_shrine
+		type temple_of_justice temple_of_justice_pantheon
 	}
 	building
 	{
@@ -2349,11 +2349,15 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+	building
+	{
+		type hinterland_ethnic_root_carthaginian ethnic_root_carthaginian_5
+	}
 }
 
 settlement
 {
-	level large_town
+	level city
 	region Sicilia_Poeni
 
 	year_founded 0
@@ -2362,11 +2366,11 @@ settlement
 	faction_creator carthage
 	building
 	{
-		type core_building governors_villa
+		type core_building governors_palace
 	}
 	building
 	{
-		type defenses wooden_wall
+		type defenses stone_wall
 	}
 	building
 	{
@@ -2384,15 +2388,85 @@ settlement
 	{
 		type hinterland_roads roads
 	}
+	building
+	{
+		type hinterland_ethnic_root_carthaginian ethnic_root_carthaginian_1
+	}
+}
+
+settlement
+{
+	level city
+	region Byzacium
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type market trader
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type hinterland_ethnic_root_carthaginian ethnic_root_carthaginian_5
+	}
+}
+
+settlement
+{
+	level town
+	region Sardinia
+
+	year_founded 0
+	population 700
+	plan_set default_set
+	faction_creator carthage
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_ethnic_root_rome ethnic_root_rome_1
+	}
 }
 
 settlement
 {
 	level large_town
-	region Byzacium
+	region Baliares
 
 	year_founded 0
-	population 3000
+	population 1000
 	plan_set default_set
 	faction_creator carthage
 	building
@@ -2423,47 +2497,25 @@ settlement
 	{
 		type hinterland_roads roads
 	}
-}
-
-settlement
-{
-	level town
-	region Sardinia
-
-	year_founded 0
-	population 700
-	plan_set default_set
-	faction_creator carthage
 	building
 	{
-		type core_building governors_house
+		type hinterland_ethnic_root_carthaginian ethnic_root_carthaginian_3
 	}
 }
 
 settlement
 {
-	level town
-	region Baliares
-
-	year_founded 0
-	population 1000
-	plan_set default_set
-	faction_creator carthage
-	building
-	{
-		type core_building governors_house
-	}
-}
-
-settlement
-{
-	level city
+	level large_city
 	region Baetica
 
 	year_founded 0
-	population 1400
+	population 4500
 	plan_set default_set
 	faction_creator carthage
+	building
+	{
+		type core_building proconsuls_palace
+	}
 	building
 	{
 		type defenses stone_wall
@@ -2486,10 +2538,6 @@ settlement
 	}
 	building
 	{
-		type core_building governors_palace
-	}
-	building
-	{
 		type port_buildings port
 	}
 	building
@@ -2503,6 +2551,10 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_ethnic_root_carthaginian ethnic_root_carthaginian_5
 	}
 }
 
@@ -4401,6 +4453,10 @@ settlement
 	{
 		type hinterland_farms farms
 	}
+	building
+	{
+		type hinterland_ethnic_root_carthaginian ethnic_root_carthaginian_5
+	}
 }
 
 settlement
@@ -4436,11 +4492,19 @@ settlement
 	{
 		type hinterland_farms farms
 	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type hinterland_ethnic_root_carthaginian ethnic_root_carthaginian_5
+	}
 }
 
 settlement
 {
-	level town
+	level large_town
 	region Gaetulia
 
 	year_founded 0
@@ -4449,11 +4513,11 @@ settlement
 	faction_creator carthage
 	building
 	{
-		type barracks muster_field
+		type core_building governors_villa
 	}
 	building
 	{
-		type core_building governors_house
+		type barracks muster_field
 	}
 	building
 	{
@@ -4462,6 +4526,10 @@ settlement
 	building
 	{
 		type hinterland_farms farms
+	}
+	building
+	{
+		type hinterland_ethnic_root_carthaginian ethnic_root_carthaginian_5
 	}
 }
 
@@ -5495,13 +5563,22 @@ settlement
 
 settlement
 {
-	level village
+	level town
 	region Sahara
 
 	year_founded 0
-	population 400
+	population 700
 	plan_set default_set
 	faction_creator carthage
+
+	building
+	{
+		type core_building governors_house
+	}
+	building
+	{
+		type hinterland_ethnic_root_carthaginian ethnic_root_carthaginian_3
+	}
 }
 
 settlement
@@ -5662,13 +5739,49 @@ settlement
 
 settlement
 {
-	level village
+	level city
 	region Tripolitania
 
 	year_founded 0
-	population 800
+	population 2500
 	plan_set default_set
 	faction_creator carthage
+	building
+	{
+		type core_building governors_palace
+	}
+	building
+	{
+		type equestrian stables
+	}
+	building
+	{
+		type defenses stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type port_buildings port
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type academic academy
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_ethnic_root_carthaginian ethnic_root_carthaginian_5
+	}
 }
 
 settlement
